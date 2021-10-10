@@ -1,0 +1,177 @@
+.blade {
+   position: absolute;
+   background: white;
+   height: 100vw;
+   width: 2px;
+   margin-left: -5%;
+   transform: translate(0,25%);
+ }
+
+.circle {
+   position: absolute;
+   height: 30px;
+   width: 30px;
+   border-width: 2px;
+   border-style: solid;
+   border-radius: 30px;
+   border-color: white;
+   margin-left: -6vw;
+   margin-top: 23%;
+   background: black;
+}
+.circle1 {
+   position: absolute;
+   height: 30px;
+   width: 30px;
+   border-width: 2px;
+   border-style: solid;
+   border-radius: 30px;
+   border-color: white;
+   margin-left: -6vw;
+   margin-top: 43%;
+   background: black;
+}
+.circle2 {
+   position: absolute;
+   height: 30px;
+   width: 30px;
+   border-width: 2px;
+   border-style: solid;
+   border-radius: 30px;
+   border-color: white;
+   margin-left: -6vw;
+   margin-top: 63%;
+   background: black;
+}
+.circle3 {
+   position: absolute;
+   height: 30px;
+   width: 30px;
+   border-width: 2px;
+   border-style: solid;
+   border-radius: 30px;
+   border-color: white;
+   margin-left: -6vw;
+   margin-top: 83%;
+   background: black;
+}
+.circle4 {
+   position: absolute;
+   height: 30px;
+   width: 30px;
+   border-width: 2px;
+   border-style: solid;
+   border-radius: 30px;
+   border-color: white;
+   margin-left: -6vw;
+   margin-top: 103%;
+   background: black;
+}
+.box1  {
+    position: absolute;
+    margin-top: 20%;
+    padding: 10%, 0, 10%,0;
+    height: 18vw;
+    width: 50vw;
+ }
+
+.box2  {
+   position: absolute;
+   margin-top: 40%;
+   padding: 10%, 0, 10%,0;
+   height: 18vw;
+   width: 50vw;
+}
+
+.box3  {
+   position: absolute;
+   margin-top: 60%;
+   padding: 10%, 0, 10%,0;
+   height: 18vw;
+   width: 50vw;
+}
+
+.box4  {
+   position: absolute;
+   margin-top: 80%;
+   padding: 10%, 0, 10%,0;
+   height: 18vw;
+   width: 50vw;
+}
+
+.box5  {
+   position: absolute;
+   margin-top: 100%;
+   padding: 10%, 0, 10%,0;
+   height: 18vw;
+   width: 50vw;
+}
+
+.grids {
+    max-width: 50%;
+    margin: auto;
+    grid-template-columns: 1fr 2fr;
+ }
+
+.h2 {
+   padding: 2vw;
+   font-size: 40px;
+   font-family: 'Saira Extra Condensed', sans-serif;
+   font-weight: bold;
+   text-transform: uppercase;
+ }
+
+.p {
+   padding: 0 2vw 2vw 2vw;
+   font-family: 'Saira', sans-serif;
+   font-size: 16px;
+   font-weight: 300;
+   text-align: justify;
+}
+
+@media only screen and (max-width: 1024px) {
+   .box1 {width: 60vw;}
+   .box2 {width: 60vw; margin-top: 45%}
+   .box3 {width: 60vw; margin-top: 70%}
+   .box4 {width: 60vw; margin-top: 95%}
+   .box5 {width: 60vw; margin-top: 120%}
+   .blade {height: 120vw; transform: translate(0,20%);}
+   .h2 {font-size: 32px;}
+   .p {font-size: 12px;}
+   .circle {height:20px;width: 20px; margin-top:24%}
+   .circle1 {height:20px;width: 20px; margin-top:49%}
+   .circle2 {height:20px;width: 20px; margin-top:74%}
+   .circle3 {height:20px;width: 20px; margin-top:99%}
+   .circle4 {height:20px;width: 20px; margin-top:124%}
+ }
+
+@media only screen and (max-width: 768px) {
+   .box1 {width: 70vw;}
+   .box2 {width: 70vw; margin-top: 45%}
+   .box3 {width: 70vw; margin-top: 70%}
+   .box4 {width: 70vw; margin-top: 95%}
+   .box5 {width: 70vw; margin-top: 120%}
+   .blade {height: 120vw; transform: translate(0,20%);}
+   .h2 {font-size: 32px;}
+   .p {font-size: 12px;}
+   .circle {height:20px;width: 20px; margin-top:24%}
+   .circle1 {height:20px;width: 20px; margin-top:49%}
+   .circle2 {height:20px;width: 20px; margin-top:74%}
+   .circle3 {height:20px;width: 20px; margin-top:99%}
+   .circle4 {height:20px;width: 20px; margin-top:124%}
+ }
+
+@media only screen and (max-width: 480px) {
+   .box2 {margin-top: 65%}
+   .box3 {margin-top: 110%}
+   .box4 {margin-top: 155%}
+   .box5 {margin-top: 200%}
+   .blade {height: 220vw; transform: translate(0,12%);}
+   .h2 {font-size: 24px;}
+   .p {font-size: 10px;}
+   .circle {height:11px;width: 11px; margin-top:25%}
+   .circle1 {height:10px;width: 10px; margin-top:70%}
+   .circle2 {height:10px;width: 10px; margin-top:115%}
+   .circle3 {height:10px;width: 10px; margin-top:160%}
+   .circle4 {height:10px;width: 10px; margin-top:205%}
+ }
