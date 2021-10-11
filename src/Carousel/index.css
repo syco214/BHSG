@@ -60,7 +60,7 @@
     .next {margin-right: -30px;}
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 640px){
   .slide {transform: scale(0.33);}
   .activeSlide {transform: scale(0.55)}
   .next {margin-right: -30px;}

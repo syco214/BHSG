@@ -58,7 +58,7 @@ export const HeroH1 = styled.h1`
         margin-left: 23vw;
       }
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 640px) {
         font-size: 28px;
         margin-left: 15vw;
       }

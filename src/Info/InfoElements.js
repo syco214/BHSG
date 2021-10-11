@@ -61,7 +61,7 @@ export const TopLine = styled.p`
     font-family: 'Saira Extra Condensed', sans-serif;
     font-weight: bold;
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 640px) {
         font-size: 28px;
         max-width: 300px;
     }
@@ -85,7 +85,7 @@ export const Subtitle = styled.p`
     font-weight: 300;
     text-align: justify;
 
-    @media screen and (max-width: 600px) {
+    @media screen and (max-width: 640px) {
         font-size: 16px;
         max-width: 350px;
     }
