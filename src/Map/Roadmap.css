@@ -191,6 +191,7 @@
  }
 
 @media only screen and (max-width: 480px) {
+   .box1 {margin-top: 19%}
    .box2 {margin-top: 65%}
    .box3 {margin-top: 110%}
    .box4 {margin-top: 155%}
@@ -206,7 +207,7 @@
  }
 
 @media only screen and (max-width: 360px) {
-   .box1 {margin-top: 18%}
+   .box1 {margin-top: 19%}
    .box2 {margin-top: 70%}
    .box3 {margin-top: 115%}
    .box4 {margin-top: 160%}
