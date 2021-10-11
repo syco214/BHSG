@@ -13,11 +13,11 @@ const Sidebar = ({isOpen,toggle}) => {
             <SidebarWrapper>
                 <SidebarMenu>
                     <SidebarLink to="about">About</SidebarLink>
-                    <SidebarLink to="lore">Lore</SidebarLink>
                     <SidebarLink to="benefits">Utility</SidebarLink>
                     <SidebarLink to="roadmap">Roadmap</SidebarLink>
                     <SidebarLink to="team">Team</SidebarLink>
                     <SidebarLink to="faq">FAQs</SidebarLink>
+                    <SidebarLink to="future">Future</SidebarLink>
                     <div className="parent">
                     <a href="https://twitter.com/BountyHunterNFT" className="twitter social"> 
                         <FontAwesomeIcon icon={faTwitter} size="2x" />

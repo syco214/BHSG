@@ -40,7 +40,7 @@ const Info = ({lightBg, id, imgStart, headline, darkText, description, img, alt}
 
     return (
         <>
-            <InfoContainer lightBg={lightBg} id={id}>
+            <InfoContainer lightBg={lightBg} id='future'>
             <HeroContainer>
                 <HeroBg>
                     <ParticleBackground></ParticleBackground>

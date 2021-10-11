@@ -42,9 +42,6 @@ const Navbar = ({toggle}) => {
                             <NavLinks to="about" smooth={true} duration={500} spy={true} exact='true' offset={-80}>About</NavLinks>
                         </NavItem>
                         <NavItem>
-                            <NavLinks to="lore" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Lore</NavLinks>
-                        </NavItem>
-                        <NavItem>
                             <NavLinks to="benefits" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Utility</NavLinks>
                         </NavItem>
                         <NavItem>
@@ -55,6 +52,9 @@ const Navbar = ({toggle}) => {
                         </NavItem>
                         <NavItem>
                             <NavLinks to="faq" smooth={true} duration={500} spy={true} exact='true' offset={-80}>FAQs</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <NavLinks to="future" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Future</NavLinks>
                         </NavItem>
                         <a href="https://twitter.com/BountyHunterNFT" className="twitter social"> 
                         <FontAwesomeIcon icon={faTwitter} size="1x" />
