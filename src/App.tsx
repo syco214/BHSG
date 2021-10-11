@@ -85,7 +85,7 @@ const App = () => {
   return (
     <Router>
     <Route path="/" exact component={Land} />
-    <Route path="/mint">
+    <Route path="/mintymint">
       <ThemeProvider theme={theme}>
         <ConnectionProvider endpoint={endpoint}>
           <WalletProvider wallets={wallets} autoConnect={true}>

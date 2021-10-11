@@ -36,7 +36,7 @@ export const HeroContainer = styled.div`
         height: 300px;
     }
 `
-const images = [one, two, three, four];
+const images = [one, two, three, four, five];
 
 function Carousel() {
   useEffect(() => {

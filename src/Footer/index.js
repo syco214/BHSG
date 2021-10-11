@@ -19,7 +19,7 @@ const Footer = () => {
                                     <a href="https://twitter.com/BountyHunterNFT" className="twitter social"> 
                                     <FontAwesomeIcon icon={faTwitter} size="1x" />
                                     </a>
-                                    <a href="https://discord.gg/YPDJGKWMNX" className="discord social"> 
+                                    <a href="https://discord.gg/FQHsr2uY" className="discord social"> 
                                     <FontAwesomeIcon icon={faDiscord} size="1x" />
                                     </a>
                                 </Icons>

@@ -9,7 +9,7 @@ export const Data = [
     },
     {
       question: 'Will there be a presale mint? How do I get in?',
-      answer: 'There will be a presale mint. In order to get the presale mint, one must invite 3 people to the Discord server. Those successfully in the presale will be given access to the mint link 3 minutes earlier everybody else.'
+      answer: 'There will be a presale mint. In order to get the presale mint, one must invite 3 people to the Discord server. Those successfully in the presale will be given access to the mint link 3 minutes earlier everybody else. Whitelisting is also a feasible option if the deems it to be necessary, all presale members will be moved to whitelist.'
     },
     {
       question: 'How can I mint and how many mints can a user mint at a time?',

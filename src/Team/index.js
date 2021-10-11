@@ -95,12 +95,12 @@ function Cards() {
             <CardItem
               src={require('../Images/Revan.png').default}
               text='Creative Director, Brand Manager
-              Founder of Magical Mystery Gear. With a passion for Sci-Fi + Communications degree'
+              Founder of Magical Mystery Gear. With a passion for Sci-Fi + Communications degree.'
               label='ETHAN'
             />
             <CardItem
               src={require('../Images/Jaga.png').default}
-              text='Lead Artist, Art Director. Professional workaholic, currently taking up a masters in innovation design in London'
+              text='Lead Artist, Art Director. Professional workaholic, currently taking up a masters in innovation design in London.'
               label='JAGA'
             />
           </ul>
