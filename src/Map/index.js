@@ -43,6 +43,7 @@ export const HeroContent = styled.div`
 export const HeroH1 = styled.h1`
     color: #white;
     font-size: 6vw;
+    width: 350px;
     white-space: nowrap;
     overflow: hidden;
     margin-top: 5vw;
@@ -53,8 +54,10 @@ export const HeroH1 = styled.h1`
 
     @media screen and (max-width: 768px) {
         font-size: 8vw;
+        width: 200px;
     }
     @media screen and (max-width: 480px) {
+        width: 150px;
         font-size: 10vw;     
         margin-left: 30vw; 
         margin-top: 3vw;
@@ -83,7 +86,7 @@ const Map = () => {
             <ParticleBackground></ParticleBackground>
         </HeroBg>
         <HeroContent>
-        <HeroH1 data-aos="fade-up">ROADMAP</HeroH1>
+            <HeroH1 data-aos="fade-up">ROADMAP</HeroH1>
         </HeroContent>
         <div class="grids">
             <div class="blade"/>

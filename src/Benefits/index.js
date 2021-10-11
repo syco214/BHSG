@@ -119,9 +119,9 @@ return(
           <hr />
           <p>
           Each holder is entitled to a holder vote per month. Guild members can choose to either <br/> <br/>
-          Eliminate targets by sweeping the floor of a community chosen NFT project on Sol using the royalties 
+          <b>Eliminate</b> targets by sweeping the floor of a community chosen NFT project on Sol using the royalties 
           from the secondary market. What to do with the swept NFT’s will be decided by the community. They can be given out randomly to holders, donated to charity, held, or even deleted. #HappyHunting <br/><br/>
-          Or <br/><br/> Reap the rewards by collecting their bounties. If holders choose to reap the rewards, 85 percent of all secondary sales that month will be distributed to each holder.
+          Or <br/><br/> <b>Reap</b> the rewards by collecting their bounties. If holders choose to reap the rewards, 85 percent of all secondary sales that month will be distributed to each holder.
           </p>
         </div>
 
