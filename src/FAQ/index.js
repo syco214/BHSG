@@ -25,10 +25,16 @@ const HeroContainer = styled.div`
     height: 900px;
     position: relative;
 
+  @media screen and (min-width: 1920px) {
+      margin-top: 15vw;
+      height: 1000px;
+      }
+
   @media screen and (max-width: 768px) {
     height: 1100px;
     margin-top: 5vw;
       }
+
   @media screen and (max-width: 480px) {
     margin-top: 15vw;
     height: 1250px;
