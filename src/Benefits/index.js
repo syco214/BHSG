@@ -8,6 +8,7 @@ import Aos from "aos";
 
 export const HeroBg = styled.div`
     position: absolute;
+    background: black;
     top: 0;
     right: 0;
     bottom: 0;
@@ -17,7 +18,7 @@ export const HeroBg = styled.div`
     overflow: hidden;
 `
 export const HeroContainer = styled.div`
-    background: #transparent;
+    background: black;
     position: fixed;
     display: flex;
     justify-content: center;

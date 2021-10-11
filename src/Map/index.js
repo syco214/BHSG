@@ -43,23 +43,23 @@ export const HeroContent = styled.div`
 export const HeroH1 = styled.h1`
     color: #white;
     font-size: 6vw;
-    width: 350px;
+    width: 400px;
     white-space: nowrap;
     overflow: hidden;
     margin-top: 5vw;
-    margin-left: 38vw;
+    margin-left: 36vw;
     text-shadow: 0 0 0.2em hsl(195 50% 50%);
     font-family: 'Saira Extra Condensed', sans-serif;
     font-weight: bold;
 
     @media screen and (max-width: 768px) {
         font-size: 8vw;
-        width: 200px;
+        margin-left: 32vw;
+        
     }
     @media screen and (max-width: 480px) {
         width: 150px;
         font-size: 10vw;     
-        margin-left: 30vw; 
         margin-top: 3vw;
     }
 `

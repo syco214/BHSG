@@ -52,6 +52,8 @@ const Info = ({lightBg, id, imgStart, headline, darkText, description, img, alt}
                     <ParticleBackground></ParticleBackground>
                     <ParticleBackground></ParticleBackground>
                     <ParticleBackground></ParticleBackground>
+                    <ParticleBackground></ParticleBackground>
+                    <ParticleBackground></ParticleBackground>
                 </HeroBg>
                 <InfoWrapper data-aos="fade-up">
                     <InfoRow imgStart={imgStart}>
