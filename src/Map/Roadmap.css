@@ -204,3 +204,19 @@
    .circle3 {height:10px;width: 10px; margin-top:160%}
    .circle4 {height:10px;width: 10px; margin-top:205%}
  }
+
+@media only screen and (max-width: 360px) {
+   .box1 {margin-top: 18%}
+   .box2 {margin-top: 70%}
+   .box3 {margin-top: 115%}
+   .box4 {margin-top: 160%}
+   .box5 {margin-top: 205%}
+   .blade {height: 240vw; transform: translate(0,12%);}
+   .h2 {font-size: 24px;}
+   .p {font-size: 10px;}
+   .circle {height:11px;width: 11px; margin-top:25%}
+   .circle1 {height:10px;width: 10px; margin-top:77%}
+   .circle2 {height:10px;width: 10px; margin-top:122%}
+   .circle3 {height:10px;width: 10px; margin-top:167%}
+   .circle4 {height:10px;width: 10px; margin-top:212%}
+ }
