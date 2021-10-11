@@ -60,6 +60,12 @@
     .next {margin-right: -30px;}
 }
 
+@media only screen and (max-width: 600px){
+  .slide {transform: scale(0.33);}
+  .activeSlide {transform: scale(0.55)}
+  .next {margin-right: -30px;}
+}
+
 @media only screen and (max-width: 480px){
     .slide {transform: scale(0.15);}
     .activeSlide {transform: scale(0.33); margin-left: -40px;}

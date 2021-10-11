@@ -106,6 +106,10 @@ const Dropdown = styled.div`
     height: 160px;
     font-size: 15px;}
 
+  @media screen and (max-width: 600px) {
+      font-size: 13px;}
+  }
+
   @media screen and (max-width: 480px) {
     height:150px;
     font-size: 10px;}

@@ -27,6 +27,11 @@ const HeroContainer = styled.div`
     @media screen and (max-width: 768px) {
         height: 150vw;
     }
+
+    @media screen and (max-width: 600px) {
+        height: 190vw;
+    }
+
     @media screen and (max-width: 480px) {
         height: 260vw;
     }
@@ -55,8 +60,12 @@ export const HeroH1 = styled.h1`
     @media screen and (max-width: 768px) {
         font-size: 8vw;
         margin-left: 32vw;
-        
     }
+
+    @media screen and (max-width: 600px) {
+        margin-left: 18vw;
+    }
+
     @media screen and (max-width: 480px) {
         width: 150px;
         font-size: 10vw;     

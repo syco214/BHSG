@@ -19,6 +19,9 @@ export const TeamContainer = styled.div`
     @media screen and (max-width: 768px) {
       height: 1000px;
 
+    @media screen and (max-width: 600px) {
+        height: 2000px;
+
     @media screen and (max-width: 480px) {
       font-size: 32px;
       height: 1700px;

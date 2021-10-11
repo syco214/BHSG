@@ -24,6 +24,11 @@ body {
     }
   }
 
+@media only screen and (max-width: 600px){
+    .container{width: 400px; height: 800px;
+    }
+  }
+
 @media only screen and (max-width: 480px){
     .container{width: 360px; height: 800px;
     }
