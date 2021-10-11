@@ -27,7 +27,7 @@ const HeroContainer = styled.div`
 
   @media screen and (min-width: 1920px) {
       margin-top: 15vw;
-      height: 1000px;
+      height: 1100px;
       }
 
   @media screen and (max-width: 768px) {
