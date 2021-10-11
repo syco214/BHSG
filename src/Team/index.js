@@ -10,19 +10,18 @@ export const TeamContainer = styled.div`
     position: fixed;
     display: flex;
     justify-content: center;
-    align-items: center;
-    height: 60vw;
+    height: 1400px;
     position: relative;
-    margin-top: 5vw;
-    margin-bottom: 20vw;
+
+    @media screen and (max-width: 1024px) {
+      height: 1100px;
 
     @media screen and (max-width: 768px) {
       height: 1000px;
-      margin-bottom: -10vw;
 
     @media screen and (max-width: 480px) {
       font-size: 32px;
-      height: 1300px;
+      height: 1700px;
 `
 export const TeamBg = styled.div`
     position: absolute;
@@ -36,17 +35,8 @@ export const TeamBg = styled.div`
 `
 export const HeroContent = styled.div`
     position: absolute;
-    margin-bottom: 700px;
     padding: 8px 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-    @media screen and (max-width: 768px) {
-      margin-bottom: 110vw;}
-
-    @media screen and (max-width: 480px) {
-      margin-bottom: 1300px;}
+    align-items: initial;
 `
 
 export const HeroH1 = styled.h1`
@@ -55,7 +45,6 @@ export const HeroH1 = styled.h1`
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
-    margin-top: -50px;
     text-shadow: 0 0 0.2em hsl(195 50% 50%);
     font-family: 'Saira Extra Condensed', sans-serif;
     font-weight: bold;
@@ -94,32 +83,35 @@ function Cards() {
           <ul className='cards__items'>
             <CardItem
               src={require('../Images/Revan.png').default}
-              text='Creative Director, Brand Manager
-              Founder of Magical Mystery Gear. With a passion for Sci-Fi + Communications degree.'
+              text='Creative Director, Brand Manager' 
+              text2='Founder of Magical Mystery Gear. With a passion for Sci-Fi + Communications degree.'
               label='ETHAN'
             />
             <CardItem
               src={require('../Images/Jaga.png').default}
-              text='Lead Artist, Art Director. Professional workaholic, currently taking up a masters in innovation design in London.'
+              text='Lead Artist, Art Director' 
+              text2='Professional workaholic, currently taking up a masters in innovation design in London.'
               label='JAGA'
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
               src={require('../Images/Sage.png').default}
-              text='Lead Developer. Engineering graduate, big crypto lover except when he gets burned from futures.'
+              text='Lead Developer. Engineering graduate'
+              text2='Big crypto lover except when he gets burned from futures.'
               label='SAGE'
             />
             <CardItem
               src={require('../Images/Horizon.png').default}
-              text='Experienced copywriter, social media manager, and advertiser. Makes words go brrr.'
+              text='Experienced copywriter, Social media manager, and Advertiser.'
+              text2='Makes words go brrr.'
               label='ALEX'
             />
           </ul>
         </div>
       </div>
     </div>
-    </div>
+   </div>
   </TeamContainer>
   );
 }

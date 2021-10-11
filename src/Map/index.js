@@ -95,10 +95,9 @@ const Map = () => {
             <div className="box1" data-aos="fade-up">
                 <div className="h2">Main Launch</div>
                 <div className="p">November 2021</div>
-                <div className="p">Presale will be opened to all Original Bounty Hunters* 
-                The first few on the Discord Server to reach Presale Requirements. 
-                This will be a 5-minute head start from the public sale. The remaining of the 5555 
-                Bounty Hunters will be available to mint for the public at 3 Sol per Bounty Hunter.
+                <div className="p">Presale will be opened to all Space Pioneers (the first few on the Discord 
+                who reach presale requirements). Presale minting will have a head start, but a whitelisting option is always possible. 
+                The remaining of the 5555 Bounty Hunters will be available to mint for the public, price TBA.
                 </div>
             </div>
             <div className="box2" data-aos="fade-up">
