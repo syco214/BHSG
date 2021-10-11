@@ -30,6 +30,9 @@ export const FooterLinksWrapper = styled.div`
     display: flex;
     margin-left: 20vw;
 
+    @media screen and (min-width: 1920px){
+        margin-left: 40vw;
+    }
     @media screen and (max-width: 1240px){
         margin-left: 0;
     }

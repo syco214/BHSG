@@ -25,7 +25,6 @@ const Footer = () => {
                                 </Icons>
                         </FooterLinkItems>
                         <FooterLinkItems>
-                        
                                 <FooterLink href="https://drive.google.com/file/d/1QxQC48CoFpbLoDWjjVqgpAzDaDyXBbxR/view?usp=sharing">Terms and Conditions</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
