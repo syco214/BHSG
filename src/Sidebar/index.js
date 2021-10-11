@@ -16,7 +16,7 @@ const Sidebar = ({isOpen,toggle}) => {
                     <SidebarLink to="benefits">Utility</SidebarLink>
                     <SidebarLink to="roadmap">Roadmap</SidebarLink>
                     <SidebarLink to="team">Team</SidebarLink>
-                    <SidebarLink to="faq">FAQs</SidebarLink>
+                    <SidebarLink to="faq">FAQ</SidebarLink>
                     <SidebarLink to="future">Future</SidebarLink>
                     <div className="parent">
                     <a href="https://twitter.com/BountyHunterNFT" className="twitter social"> 
