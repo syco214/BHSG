@@ -66,6 +66,7 @@ function Carousel() {
   const settings = {
     infinite: true,
     lazyLoad: true,
+    autoplay: 3000,
     speed: 300,
     slidesToShow: 3,
     centerMode: true,
