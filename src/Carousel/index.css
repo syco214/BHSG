@@ -58,6 +58,7 @@
     .slide {transform: scale(0.44);}
     .activeSlide {transform: scale(0.66)}
     .next {margin-right: -30px;}
+    /* .App {width: 100%;} */
 }
 
 @media only screen and (max-width: 640px){

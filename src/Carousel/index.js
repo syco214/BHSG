@@ -3,11 +3,13 @@ import styled from "styled-components";
 import React, {useEffect} from 'react';
 import { useState } from "react";
 import Slider from "react-slick";
-import one from "../Images/1.png";
+import one from "../Images/1.jpg";
 import two from "../Images/2.png";
 import three from "../Images/3.png";
 import four from "../Images/4.png";
 import five from "../Images/5.png";
+import six from "../Images/6.png";
+import seven from "../Images/7.png";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import ParticleBackground from '../ParticleBackground';
 import "aos/dist/aos.css";
@@ -36,7 +38,7 @@ export const HeroContainer = styled.div`
         height: 300px;
     }
 `
-const images = [one, two, three, four, five];
+const images = [one, two, three, four, five, six, seven];
 
 function Carousel() {
   useEffect(() => {
