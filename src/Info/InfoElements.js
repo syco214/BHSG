@@ -44,7 +44,7 @@ export const TextWrapper = styled.div`
     max-width: 800px;
     display: flex;
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 560px) {
         display: block;
     }
 `;
@@ -66,7 +66,7 @@ export const TopLine = styled.p`
         max-width: 300px;
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 560px) {
         font-size: 28px;
         text-align: center;
         max-width: 500px;

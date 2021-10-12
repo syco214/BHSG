@@ -11,6 +11,15 @@ export const HeroContainer = styled.div`
     height: 710px;
     position: relative;
     z-index 1;
+
+    @media screen and (min-width: 1920px) {
+        height: 1000px;
+
+    @media screen and (max-width: 768px) {
+        height: 850px;
+
+    @media screen and (max-width: 600px) {
+        height: 500px;
 `
 
 export const HeroBg = styled.div`
