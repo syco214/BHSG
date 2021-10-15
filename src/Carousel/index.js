@@ -1,6 +1,6 @@
 import "./index.css";
 import styled from "styled-components";
-import React, {useEffect} from 'react';
+import React from 'react';
 import { useState } from "react";
 import Slider from "react-slick";
 import one from "../Images/1.jpg";
@@ -12,8 +12,6 @@ import six from "../Images/6.png";
 import seven from "../Images/7.png";
 import { FaArrowRight, FaArrowLeft } from "react-icons/fa";
 import ParticleBackground from '../ParticleBackground';
-import "aos/dist/aos.css";
-import Aos from "aos";
 
 export const HeroBg = styled.div`
     position: absolute;
@@ -41,9 +39,6 @@ export const HeroContainer = styled.div`
 const images = [one, two, three, four, five, six, seven];
 
 function Carousel() {
-  useEffect(() => {
-    Aos.init({ duration: 2000});
-  },[]);
 
   const NextArrow = ({ onClick }) => {
     return (
@@ -83,7 +78,7 @@ function Carousel() {
         <ParticleBackground></ParticleBackground>
         <ParticleBackground></ParticleBackground>
     </HeroBg>
-    <div className="App" data-aos="fade-up">
+    <div className="App">
       <Slider {...settings}>
         {images.map((img, idx) => (
           <div className={idx === imageIndex ? "slide activeSlide" : "slide"}>

@@ -1,13 +1,10 @@
 import React, { useState } from 'react';  
 import { Data } from './Data';
-import {useEffect} from 'react';
 import styled from 'styled-components';
 import { IconContext } from 'react-icons';
 import { FiPlus, FiMinus } from 'react-icons/fi';
 import ParticleBackground from '../ParticleBackground'
 import './faq.css';
-import "aos/dist/aos.css";
-import Aos from "aos";
 
 const HeroBg = styled.div`
     position: absolute;
@@ -148,9 +145,6 @@ const Accordion = () => {
     setClicked(index);
   };
 
-  useEffect(() => {
-    Aos.init({ duration: 2000});
-  },[]);
 
   return (
     <HeroContainer id='faq'>
@@ -164,7 +158,7 @@ const Accordion = () => {
           <ParticleBackground></ParticleBackground>
         </HeroBg>
     <IconContext.Provider value={{ color: '#FFE81F', size: '25px' }}>
-      <AccordionSection data-aos="fade-up">
+      <AccordionSection>
         <Container>
         <Wrap1>
         <h1>Frequently Asked Questions </h1>

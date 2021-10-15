@@ -1,10 +1,8 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import './Cards.css';
 import styled from 'styled-components';
 import CardItem from './Carditem';
 import ParticleBackground from '../ParticleBackground';
-import "aos/dist/aos.css";
-import Aos from "aos";
 
 export const TeamContainer = styled.div`
     position: fixed;
@@ -60,11 +58,6 @@ export const HeroH1 = styled.h1`
 `
 
 function Cards() {
-
-  useEffect(() => {
-    Aos.init({ duration: 2000});
-  },[]);
-
   return (
   <TeamContainer id='team'>
     <TeamBg>
@@ -76,10 +69,10 @@ function Cards() {
       <ParticleBackground></ParticleBackground>
       <ParticleBackground></ParticleBackground>
     </TeamBg>
-    <HeroContent data-aos="fade-up">
+    <HeroContent>
         <HeroH1>MEET THE TEAM</HeroH1>
     </HeroContent >
-    <div className='space' data-aos="fade-up">
+    <div className='space'>
     <div className='cards'>
       <div className='cards__container'>
         <div className='cards__wrapper'>

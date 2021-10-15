@@ -8,16 +8,16 @@ export const Data = [
       answer: 'November 2021, Exact date and time TBA.'
     },
     {
-      question: 'Will there be a presale mint? How do I get in?',
-      answer: 'There will be a presale mint. In order to get the presale mint, one must invite 3 people to the Discord server. Those successfully in the presale will be given access to the mint link 3 minutes earlier everybody else. Whitelisting is also a feasible option if the deems it to be necessary, all presale members will be moved to whitelist.'
+      question: 'Will there be a whitelist mint? How do I get in?',
+      answer: 'BHSG will mint using the Fair Launch Protocol designed by Metaplex, all whitelisted members will be given an spl-token that would bypass the lottery and grant them (1) mint at the Fair Price. Whitelist spots are still available, join our discord for further details.'
     },
     {
       question: 'How can I mint and how many mints can a user mint at a time?',
-      answer: 'You can mint using Solana’s main wallets: Phantom, Sollet and Solflare on our website. 1 mint at a time, but there will be no cap as to how many can be minted per person.'
+      answer: 'You can mint using Solana’s main wallets: Phantom, Sollet and Solflare on our website. Using the fair launch protocol, each address that wins the lottery will be able to mint (1) Bounty Hunter NFT at the Fair Price.'
     },
     {
       question: 'Are there secondary sale royalties?',
-      answer: 'Yes, royalties are set to 5% which will go towards the Bounty Hunter Space Guild DAO. 85% of those royalties will go towards the monthly sweep or reap utility that we have.'
+      answer: 'Yes, royalties are set to 5% which will go towards the Bounty Hunter Space Guild DAO. 85% of those royalties will go towards the monthly sweep and reap utility that we have.'
     },
     {
       question: 'Where can we sell our Bounty Hunters?',

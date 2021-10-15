@@ -111,40 +111,41 @@ const Map = () => {
             <div className="box1" data-aos="fade-up">
                 <div className="h2">Main Launch</div>
                 <div className="p">November 2021</div>
-                <div className="p">Presale will be opened to all Space Pioneers (the first few on the Discord 
-                who reach presale requirements). Presale minting will have a head start, but a whitelisting option is always possible. 
-                The remaining of the 5555 Bounty Hunters will be available to mint for the public, price TBA.
+                <div className="p">The Fair Launch Protocol will be used for this project, whitelisted 
+                members will be given an SPL token that they can use to mint and bypass the lottery. The 
+                remaining number of Bounty Hunters will be available for minting through the Fair Launch system, 
+                more details will be released closer to launch.
                 </div>
             </div>
             <div className="box2" data-aos="fade-up">
             <div className="h2">Post Launch</div>
                 <div className="p">November 2021</div>
-                <div className="p">Holders will now be able to verify their Bounty Hunters 
-                and gain access to Private Discord channels. Digital Eyes will be the initial 
-                secondary marketplace to provide a safe and secure way for trading Bounty Hunters. 
-                Solanart.io will be next.
+                <div className="p">Holders will now be able to verify their Bounty Hunters through Grape 
+                and gain access to Private Discord channels and the Bounty Hunter Space Guild Dao. Digital 
+                Eyes and Solanart will be the initial secondary marketplace to provide a safe and secure way for trading Bounty Hunters. 
                 </div>
             </div>
             <div className="box3" data-aos="fade-up">
-                <div className="h2">Sweep or Reap Launch</div>
+                <div className="h2">Sweep and Reap Launch</div>
                 <div className="p">December 2021</div>
-                <div className="p">The first iteration of the Sweep or Reap utility will be launched 
-                allowing holders to earn their chosen set of dividends from the Bounty Hunters Space 
-                Guild DAO.
+                <div className="p">The first iteration of the Sweep and Reap utility will be launched 
+                allowing holders to vote on which projects to sweep as well as Reap the rewards of being
+                a member of the Bounty Hunter Space Guild DAO.
                 </div>
             </div>
             <div className="box4" data-aos="fade-up">
-                <div className="h2">Merchandise Store and 3D Models</div>
+                <div className="h2">Universe building airdrops</div>
                 <div className="p">2022</div>
-                <div className="p">A Merchandise Store for holders only will be launched on the website.
-                3D Helmet Models will be also given to holders who ask for it.
+                <div className="p">Bounty Hunter Upgrades and Planets are all 
+                possibilities for future airdrops;  all dependent on what the community wants. 
+                Every airdrop will be an integral part of the Bounty Hunter Space Guild universe.
                 </div>
             </div>
             <div className="box5" data-aos="fade-up">
-                <div className="h2">Universe building airdrops</div>
+                <div className="h2">Merchandise Store and 3D Models</div>
                 <div className="p">2022</div>
-                <div className="p">Bounty Hunter Upgrades, Bounties/Wanted Posters, Planets are all 
-                possibilities for future airdrops;  all dependent on what the community wants.
+                <div className="p">A Merchandise Store for holders will be released, details on how to claim these purchase
+                these items will released later on. 3D Helmet Renders will be also given to holders who ask for it.
                 </div>
             </div>
         </div>

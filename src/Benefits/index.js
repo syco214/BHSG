@@ -1,10 +1,8 @@
 import { useState } from "react";
-import React, {useEffect} from 'react';
+import React from 'react';
 import styled from "styled-components";
 import ParticleBackground from '../ParticleBackground';
 import "./Tabs.css";
-import "aos/dist/aos.css";
-import Aos from "aos";
 
 export const HeroBg = styled.div`
     position: absolute;
@@ -69,9 +67,6 @@ export const HeroH1 = styled.h1`
 `
 
 function Tabs() {
-  useEffect(() => {
-    Aos.init({ duration: 2000});
-  },[]);
 
   const [toggleState, setToggleState] = useState(1);
   const toggleTab = (index) => {
@@ -83,7 +78,7 @@ return(
         <ParticleBackground></ParticleBackground>
         <ParticleBackground></ParticleBackground>
       </HeroBg>
-    <div data-aos="fade-up">
+    <div>
     <HeroContent>
         <HeroH1>GUILD MEMBER BENEFITS</HeroH1>
     </HeroContent>
@@ -93,7 +88,7 @@ return(
           className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(1)}
         >
-          Sweep or Reap
+          Sweep and Reap
         </button>
         <button
           className={toggleState === 2 ? "tabs active-tabs" : "tabs"}
@@ -120,13 +115,17 @@ return(
         <div
           className={toggleState === 1 ? "content  active-content" : "content"}
         >
-          <h2>Eliminate Targets or Reap The Rewards</h2>
+          <h2>Eliminate Targets and Reap The Rewards</h2>
           <hr />
           <p>
-          Each holder is entitled to a holder vote per month. Guild members can choose to either <br/> <br/>
-          <b>Eliminate</b> targets by sweeping the floor of a community chosen NFT project on Sol using the royalties 
-          from the secondary market. What to do with the swept NFT’s will be decided by the community. They can be given out randomly to holders, donated to charity, held, or even deleted. #HappyHunting <br/><br/>
-          Or <br/><br/> <b>Reap</b> the rewards by collecting their bounties. If holders choose to reap the rewards, 85 percent of all secondary sales that month will be distributed to each holder.
+          Each holder is entitled to a holder vote per month, 85 percent of all secondary 
+          sales go towards the Bounty Hunter Space Guild Dao. 
+          Guild members can choose to either <br/> <br/>
+          <b>Eliminate</b> targets by sweeping the floor of a community chosen NFT project on Sol. 
+          What to do with the swept NFT’s will be decided by the community. They can be given out randomly to holders, 
+          donated to charity, held, or even deleted. #HappyHunting <br/><br/>
+          And <br/><br/> <b>Reap</b> the rewards by collecting their bounties. If holders choose to reap the reward, 
+          the community gains access to special rewards from the Bounty Hunter Space Guild DAO.
           </p>
         </div>
 
@@ -136,10 +135,9 @@ return(
           <h2>Access to Future Airdrops</h2>
           <hr />
           <p>
-          If you are a Bounty Hunter holder, you are entitled to future airdrops.
-          Classified Information for now, but we will be sure to have world-building 
-          as rich as all of our favorite Sci-Fi universes.
-
+          If you are a Bounty Hunter holder, you are entitled to future airdrops which would also grant access to 
+          Bounty Hunter Space Guild merchandise. Classified Information for now, but we will be sure to have world-building 
+          as rich as all of our favorite Sci-Fi universes. 
           </p>
         </div>
 
@@ -160,9 +158,9 @@ return(
           <h2>Access to Merch and Private Discord Channels</h2>
           <hr />
           <p>
-          Verified Bounty Hunter Holders on Discord will be able to access “The Guild” Channel and 
-          “The Mission Room” to vote for sweeping or reaping. <br/><br/>
-          A Merchandise store will also be made available to purchase for Verified Bounty Hunter Holders.
+          Verified Bounty Hunter Holders on Discord will be able to access “The Guild” and “The Mission Room” Channel on discord. 
+          The team also plans to partner up with Grape to enable a community DAO to vote for sweeping or reaping. <br></br><br></br>
+          A Merchandise store will also be made available for Verified Bounty Hunter Holders.
           </p>
         </div>
       </div>

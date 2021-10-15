@@ -78,7 +78,6 @@ export const Subtitle = styled.p`
     max-width: 440px;
     margin-bottom: 35px;
     font-size: 16px;
-    text-shadow: 0 0 0.3em hsl(195 50% 50%);
     line-height: 30px;
     color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
     font-family: 'Saira', sans-serif;
