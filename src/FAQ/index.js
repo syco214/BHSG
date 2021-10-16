@@ -34,7 +34,7 @@ const HeroContainer = styled.div`
 
   @media screen and (max-width: 480px) {
     margin-top: 15vw;
-    height: 1250px;
+    height: 1350px;
     }
     
 `
