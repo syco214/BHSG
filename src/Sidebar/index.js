@@ -26,6 +26,10 @@ const Sidebar = ({isOpen,toggle}) => {
                         <FontAwesomeIcon icon={faDiscord} size="2x" />
                     </a>
                     </div>
+                    <div>
+                    <img src='https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fdrive.google.com%2Ffile%2Fd%2F1geLJ1oEGlmGrmCHa_O9XFT5SGjd1Uh3V%2Fview%3Ffbclid%3DIwAR0xYHYWZfJlBu1BBMr6WHBTUNeazmUiYkElqd085hsf6gMzIj37fvVl618&chs=180x180&choe=UTF-8&chld=L|2' alt='qr code'>
+                    </img>
+                    </div>
                 </SidebarMenu>
             </SidebarWrapper>
         </SidebarContainer>
