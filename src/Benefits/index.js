@@ -120,7 +120,7 @@ return(
           <p>
           Each holder is entitled to a holder vote per month, 85 percent of all secondary 
           sales go towards the Bounty Hunter Space Guild Dao. 
-          Guild members can choose to either <br/> <br/>
+          Guild members are able to <br/> <br/>
           <b>Eliminate</b> targets by sweeping the floor of a community chosen NFT project on Sol. 
           What to do with the swept NFT’s will be decided by the community. They can be given out randomly to holders, 
           donated to charity, held, or even deleted. #HappyHunting <br/><br/>

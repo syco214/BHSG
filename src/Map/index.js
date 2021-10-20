@@ -61,6 +61,14 @@ export const HeroH1 = styled.h1`
     font-family: 'Saira Extra Condensed', sans-serif;
     font-weight: bold;
 
+    @media screen and (min-width: 3100px) {
+        width: 1000px;
+    }
+
+    @media screen and (min-width: 2180px) {
+        width: 600px;
+    }
+
     @media screen and (max-width: 768px) {
         font-size: 8vw;
         margin-left: 32vw;
