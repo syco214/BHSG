@@ -4,7 +4,6 @@ import React from 'react';
 import { useState } from "react";
 import Slider from "react-slick";
 import one from "../Images/1.png";
-import two from "../Images/2.png";
 import three from "../Images/3.png";
 import four from "../Images/4.png";
 import five from "../Images/5.png";
@@ -41,7 +40,7 @@ export const HeroContainer = styled.div`
         height: 300px;
     }
 `
-const images = [one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve];
+const images = [one, three, four, five, six, seven, eight, nine, ten, eleven, twelve];
 
 function Carousel() {
 
