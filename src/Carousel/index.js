@@ -41,7 +41,7 @@ export const HeroContainer = styled.div`
         height: 300px;
     }
 `
-const images = [one, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve];
+const images = [one, two, three, four, six, seven, eight, nine, ten, eleven, twelve];
 
 function Carousel() {
 
