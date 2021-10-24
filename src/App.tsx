@@ -3,6 +3,7 @@ import { useMemo } from "react";
 import {Route, BrowserRouter as Router} from "react-router-dom";
 import Home from "./Mint";
 import Land from "./land";
+import Cipher from "./cipher"
 import * as anchor from "@project-serum/anchor";
 import { clusterApiUrl } from "@solana/web3.js";
 import { WalletAdapterNetwork } from "@solana/wallet-adapter-base";
@@ -85,6 +86,7 @@ const App = () => {
   return (
     <Router>
     <Route path="/" exact component={Land} />
+    <Route path="/jagasden" exact component={Cipher} />
     <Route path="/mintymint">
       <ThemeProvider theme={theme}>
         <ConnectionProvider endpoint={endpoint}>
