@@ -27,7 +27,7 @@ const Sidebar = ({isOpen,toggle}) => {
                     </a>
                     </div>
                     <div>
-                        <img src='https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fdiscord.gg%2F4UbyuFnDzP&chs=180x180&choe=UTF-8&chld=L|2' alt=''>
+                        <img src='https://chart.googleapis.com/chart?cht=qr&chl=https%3A%2F%2Fdiscord.gg%2FpbAZtbjwGK&chs=180x180&choe=UTF-8&chld=L|2' rel='nofollow' alt='qr code'>
                         </img>
                     </div>
                 </SidebarMenu>
