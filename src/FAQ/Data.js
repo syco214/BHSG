@@ -9,7 +9,7 @@ export const Data = [
     },
     {
       question: 'Will there be a whitelist mint? How do I get in?',
-      answer: 'BHSG will mint using the Fair Launch Protocol designed by Metaplex, each whitelisted wallet will be granted (1) guaranteed win in the raffle given that they enter at the fair price. Whitelist spots are still available, join our discord for further details.'
+      answer: 'BHSG will mint using the Fair Launch Protocol designed by Metaplex, each whitelisted wallet will be granted (1) guaranteed win in the lottery given that they bid at the fair price. Whitelist spots are still available, join our discord for further details.'
     },
     {
       question: 'How can I mint and how many mints can a user mint at a time?',

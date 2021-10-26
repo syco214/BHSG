@@ -120,7 +120,7 @@ const Map = () => {
                 <div className="h2">Main Launch</div>
                 <div className="p">November 2021</div>
                 <div className="p">The Fair Launch Protocol will be used for this project, whitelisted 
-                members will be given an SPL token that they can use to mint and bypass the lottery. The 
+                wallets will automatically win the lottery given that they bid at the Fair Price. The 
                 remaining number of Bounty Hunters will be available for minting through the Fair Launch system, 
                 more details will be released closer to launch.
                 </div>
