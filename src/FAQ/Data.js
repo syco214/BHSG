@@ -9,7 +9,7 @@ export const Data = [
     },
     {
       question: 'Will there be a whitelist mint? How do I get in?',
-      answer: 'BHSG will mint using the Fair Launch Protocol designed by Metaplex, all whitelisted members will be given an spl-token that would bypass the lottery and grant them (1) mint at the Fair Price. Whitelist spots are still available, join our discord for further details.'
+      answer: 'BHSG will mint using the Fair Launch Protocol designed by Metaplex, each whitelisted wallet will be granted (1) guaranteed win in the raffle given that they enter at the fair price. Whitelist spots are still available, join our discord for further details.'
     },
     {
       question: 'How can I mint and how many mints can a user mint at a time?',
@@ -21,7 +21,7 @@ export const Data = [
     },
     {
       question: 'Where can we sell our Bounty Hunters?',
-      answer: 'You may list your Bounty Hunters on Solanart or Digital Eyes, more details will be released closer to launch'
+      answer: 'You may list your Bounty Hunters on Solanart, Magic Eden, and Alpha Art, more details will be released closer to launch'
     },
     {
       question: 'What are some of the long-term plans for Bounty Hunter Space Guild?',
