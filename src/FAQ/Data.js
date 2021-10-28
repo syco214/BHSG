@@ -1,15 +1,15 @@
 export const Data = [
     {
       question: 'What will the minting price be for Bounty Hunter Space Guild?',
-      answer: 'Minting price per Bounty Hunter TBA. This will depend on the price of Sol during mint date but rest assured it will be fair.'
+      answer: 'Minting price per Bounty Hunter using the Fair Launch Protocol would range from 1-3 SOL.'
     },
     {
       question: 'When will Bounty Hunter Space Guild drop?',
-      answer: 'November 2021, Exact date and time TBA.'
+      answer: 'November 20, 2021. 17:00 UTC.'
     },
     {
       question: 'Will there be a whitelist mint? How do I get in?',
-      answer: 'BHSG will mint using the Fair Launch Protocol designed by Metaplex, each whitelisted wallet will be granted (1) guaranteed win in the lottery given that they bid at the fair price. Whitelist spots are still available, join our discord for further details.'
+      answer: 'BHSG will mint using the Fair Launch Protocol, each whitelisted wallet will be granted (1) guaranteed win in the lottery given that they bid at the fair price. Whitelist spots are still available, join our discord for further details.'
     },
     {
       question: 'How can I mint and how many mints can a user mint at a time?',
