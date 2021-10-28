@@ -27,7 +27,7 @@ const Hero = () => {
                {/* <HeroP>5,555 Unique NFTs</HeroP> */}
                <HeroBtnWrapper>
                    <Button to="mint" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
-                       Minting on 10/20/2021 {hover ? <ArrowForward /> : <ArrowRight/>}
+                       Minting on 11/20/2021 {hover ? <ArrowForward /> : <ArrowRight/>}
                    </Button>
                </HeroBtnWrapper>
            </HeroContent>
