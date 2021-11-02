@@ -94,8 +94,8 @@ return(
           className={toggleState === 2 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(2)}
         >
-          Future <br/>
-          Airdrops
+          The <br/>
+          Room
         </button>
         <button
           className={toggleState === 3 ? "tabs active-tabs" : "tabs"}
@@ -107,7 +107,7 @@ return(
           className={toggleState === 4 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(4)}
         >
-          Access
+          DAO Access
         </button>
       </div>
 
@@ -118,7 +118,7 @@ return(
           <h2>Eliminate Targets and Reap The Rewards</h2>
           <hr />
           <p>
-          Each holder is entitled to a holder vote per month, 85 percent of all secondary 
+          Each holder is entitled to a holder votes, 85 percent of all secondary 
           sales go towards the Bounty Hunter Space Guild Dao. 
           Guild members are able to <br/> <br/>
           <b>Eliminate</b> targets by sweeping the floor of a community chosen NFT project on Sol. 
@@ -132,35 +132,41 @@ return(
         <div
           className={toggleState === 2 ? "content  active-content" : "content"}
         >
-          <h2>Access to Future Airdrops</h2>
+          <h2>The Tower Room Gallery</h2>
           <hr />
           <p>
-          If you are a Bounty Hunter holder, you are entitled to future airdrops which would also grant access to 
-          Bounty Hunter Space Guild merchandise. Classified Information for now, but we will be sure to have world-building 
-          as rich as all of our favorite Sci-Fi universes. 
+          The Bounty Hunter Space Guild DAO will have access and control over the NFTs in the Tower Gallery. <br /> <br /> 
+          A percentage of the mint sales will be used to fill up the room with NFT’s depending on the decided fair launch price.<br /> <br /> 
+          1 SOL 200,000$<br /> 
+          2 SOL 600,000$<br /> 
+          3 Sol 1,000,000$<br /> <br /> 
+          The room will provide complete transparency over what the DAO possesses. It will also coincide with the monthly floor sweeps for sustainability.  
           </p>
         </div>
 
         <div
           className={toggleState === 3 ? "content  active-content" : "content"}
         >
-          <h2>3D Helmet Models</h2>
+          <h2>Metaverse</h2>
           <hr />
           <p>
           Holders will be given 3D renders of their Bounty Hunter helmets. 
-          These helmets can be used in the Metaverse
+          These helmets can be used in augmented reality and in the future — The Metaverse.
           </p>
         </div>
 
         <div
           className={toggleState === 4 ? "content  active-content" : "content"}
         >
-          <h2>Access to Merch and Private Discord Channels</h2>
+          <h2>Access to Merch and Future Airdrops</h2>
           <hr />
           <p>
-          Verified Bounty Hunter Holders on Discord will be able to access “The Guild” and “The Mission Room” Channel on discord. 
-          The team also plans to partner up with Grape to enable a community DAO to vote for sweeping or reaping. <br></br><br></br>
-          A Merchandise store will also be made available for Verified Bounty Hunter Holders.
+            Bounty Hunter holders will be verified through Grape this will give them access to the following:<br/><br/>
+            1. “The Guild” and “The Mission Room” Channels on discord. <br/>
+            2. To vote for which NFT’s will be put into the Tower x BHSG room after the each Sweep. <br/>
+            3. To vote on DAO decisions. <br/>
+            3. Exclusive Bounty Hunter Space Guild merchendise and collectibles. <br/>
+            4. Future world building airdrops.
           </p>
         </div>
       </div>

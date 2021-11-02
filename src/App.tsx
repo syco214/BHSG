@@ -88,6 +88,7 @@ const App = () => {
     <Route path="/" exact component={Land} />
     <Route path="/jagasden" exact component={Cipher} />
     <Route path="/mintymint">
+    <div style={{background:"black"}}>
       <ThemeProvider theme={theme}>
         <ConnectionProvider endpoint={endpoint}>
           <WalletProvider wallets={wallets} autoConnect={true}>
@@ -104,6 +105,7 @@ const App = () => {
           </WalletProvider>
         </ConnectionProvider>
       </ThemeProvider>
+      </div>
     </Route>
   </Router>
   );

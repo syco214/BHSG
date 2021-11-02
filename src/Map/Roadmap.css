@@ -1,10 +1,10 @@
 .blade {
    position: absolute;
    background: white;
-   height: 100vw;
+   height: 120vw;
    width: 2px;
    margin-left: -5%;
-   transform: translate(0,25%);
+   transform: translate(0,20%);
  }
 
 .circle {
@@ -67,6 +67,20 @@
    margin-top: 103%;
    background: black;
 }
+
+.circle5 {
+   position: absolute;
+   height: 30px;
+   width: 30px;
+   border-width: 2px;
+   border-style: solid;
+   border-radius: 30px;
+   border-color: white;
+   margin-left: -6vw;
+   margin-top: 123%;
+   background: black;
+}
+
 .box1  {
     position: absolute;
     margin-top: 20%;
@@ -107,6 +121,14 @@
    width: 50vw;
 }
 
+.box6  {
+   position: absolute;
+   margin-top: 120%;
+   padding: 10%, 0, 10%,0;
+   height: 18vw;
+   width: 50vw;
+}
+
 .grids {
     max-width: 50%;
     margin: auto;
@@ -135,11 +157,13 @@
    .box3 {margin-top: 61%}
    .box4 {margin-top: 81%}
    .box5 {margin-top: 101%}
+   .box6 {margin-top: 121%}
    .circle {height:40px;width: 40px; margin-top:24%}
    .circle1 {height:40px;width: 40px; margin-top:44%}
    .circle2 {height:40px;width: 40px; margin-top:64%}
    .circle3 {height:40px;width: 40px; margin-top:84%}
    .circle4 {height:40px;width: 40px; margin-top:104%}
+   .circle5 {height:40px;width: 40px; margin-top:124%}
  }
 
 @media only screen and (max-width: 1024px) {
@@ -148,7 +172,8 @@
    .box3 {width: 60vw; margin-top: 70%}
    .box4 {width: 60vw; margin-top: 95%}
    .box5 {width: 60vw; margin-top: 120%}
-   .blade {height: 120vw; transform: translate(0,20%);}
+   .box6 {width: 60vw; margin-top: 145%}
+   .blade {height: 140vw; transform: translate(0,18%);}
    .h2 {font-size: 32px;}
    .p {font-size: 12px;}
    .circle {height:20px;width: 20px; margin-top:24%}
@@ -156,6 +181,7 @@
    .circle2 {height:20px;width: 20px; margin-top:74%}
    .circle3 {height:20px;width: 20px; margin-top:99%}
    .circle4 {height:20px;width: 20px; margin-top:124%}
+   .circle5 {height:20px;width: 20px; margin-top:149%}
  }
 
 @media only screen and (max-width: 768px) {
@@ -164,7 +190,7 @@
    .box3 {width: 70vw; margin-top: 70%}
    .box4 {width: 70vw; margin-top: 95%}
    .box5 {width: 70vw; margin-top: 120%}
-   .blade {height: 120vw; transform: translate(0,20%);}
+   .blade {height: 140vw; transform: translate(0,18%);}
    .h2 {font-size: 32px;}
    .p {font-size: 12px;}
    .circle {height:20px;width: 20px; margin-top:24%}
@@ -180,7 +206,8 @@
    .box3 {width: 70vw; margin-top: 87%}
    .box4 {width: 70vw; margin-top: 119%}
    .box5 {width: 70vw; margin-top: 151%}
-   .blade {height: 150vw; transform: translate(0,20%);}
+   .box5 {width: 70vw; margin-top: 173%}
+   .blade {height: 170vw; transform: translate(0,18%);}
    .h2 {font-size: 28px;}
    .p {font-size: 10px;}
    .circle {height:15px;width: 15px; margin-top:28%}
@@ -188,6 +215,7 @@
    .circle2 {height:15px;width: 15px; margin-top:92%}
    .circle3 {height:15px;width: 15px; margin-top:124%}
    .circle4 {height:15px;width: 15px; margin-top:156%}
+   .circle5 {height:15px;width: 15px; margin-top:178%}
  }
 
 @media only screen and (max-width: 480px) {
@@ -196,7 +224,8 @@
    .box3 {margin-top: 110%}
    .box4 {margin-top: 155%}
    .box5 {margin-top: 200%}
-   .blade {height: 220vw; transform: translate(0,12%);}
+   .box6 {margin-top: 245%}
+   .blade {height: 260vw; transform: translate(0,10%);}
    .h2 {font-size: 24px;}
    .p {font-size: 10px;}
    .circle {height:11px;width: 11px; margin-top:25%}
@@ -204,20 +233,23 @@
    .circle2 {height:10px;width: 10px; margin-top:115%}
    .circle3 {height:10px;width: 10px; margin-top:160%}
    .circle4 {height:10px;width: 10px; margin-top:205%}
+   .circle5 {height:10px;width: 10px; margin-top:250%}
  }
 
 @media only screen and (max-width: 360px) {
    .box1 {margin-top: 19%}
    .box2 {margin-top: 70%}
-   .box3 {margin-top: 115%}
-   .box4 {margin-top: 160%}
-   .box5 {margin-top: 205%}
-   .blade {height: 240vw; transform: translate(0,12%);}
+   .box3 {margin-top: 121%}
+   .box4 {margin-top: 172%}
+   .box5 {margin-top: 223%}
+   .box6 {margin-top: 274%}
+   .blade {height: 300vw; transform: translate(0,9%);}
    .h2 {font-size: 24px;}
    .p {font-size: 10px;}
    .circle {height:11px;width: 11px; margin-top:25%}
-   .circle1 {height:10px;width: 10px; margin-top:77%}
-   .circle2 {height:10px;width: 10px; margin-top:122%}
-   .circle3 {height:10px;width: 10px; margin-top:167%}
-   .circle4 {height:10px;width: 10px; margin-top:212%}
+   .circle1 {height:10px;width: 10px; margin-top:76%}
+   .circle2 {height:10px;width: 10px; margin-top:127%}
+   .circle3 {height:10px;width: 10px; margin-top:178%}
+   .circle4 {height:10px;width: 10px; margin-top:229%}
+   .circle5 {height:10px;width: 10px; margin-top:280%}
  }

@@ -17,27 +17,27 @@ const HeroBg = styled.div`
     overflow: hidden;
 `
 const HeroContainer = styled.div`
-    height: 130vw;
+    height: 150vw;
     position: relative;
 
     @media screen and (max-width: 1024px) {
-        height: 150vw;
+        height: 170vw;
     }
 
     @media screen and (max-width: 768px) {
-        height: 150vw;
-    }
-
-    @media screen and (max-width: 640px) {
         height: 190vw;
     }
 
+    @media screen and (max-width: 640px) {
+        height: 210vw;
+    }
+
     @media screen and (max-width: 480px) {
-        height: 260vw;
+        height: 300vw;
     }
 
     @media screen and (max-width: 360px) {
-        height: 280vw;
+        height: 340vw;
     }
 `
 
@@ -116,6 +116,7 @@ const Map = () => {
             <div class="circle2"/>
             <div class="circle3"/>
             <div class="circle4"/>
+            <div class="circle5"/>
             <div className="box1" data-aos="fade-up">
                 <div className="h2">Main Launch</div>
                 <div className="p">November 20 2021</div>
@@ -135,6 +136,14 @@ const Map = () => {
                 </div>
             </div>
             <div className="box3" data-aos="fade-up">
+            <div className="h2">The Room</div>
+                <div className="p">November 2021</div>
+                <div className="p">The Tower x BHSG room will be filled with a portion of the mint sales. 
+                Early holders get to participate in our little NFT spending spree.  <br /> <br />
+                More details in Guild member benefits
+                </div>
+            </div>
+            <div className="box4" data-aos="fade-up">
                 <div className="h2">Sweep and Reap Launch</div>
                 <div className="p">December 2021</div>
                 <div className="p">The first iteration of the Sweep and Reap utility will be launched 
@@ -142,15 +151,15 @@ const Map = () => {
                 a member of the Bounty Hunter Space Guild DAO.
                 </div>
             </div>
-            <div className="box4" data-aos="fade-up">
+            <div className="box5" data-aos="fade-up">
                 <div className="h2">Universe building airdrops</div>
                 <div className="p">2022</div>
-                <div className="p">Bounty Hunter Upgrades and Planets are all 
+                <div className="p">Bounty Hunter Upgrades and Spaceships are all 
                 possibilities for future airdrops;  all dependent on what the community wants. 
                 Every airdrop will be an integral part of the Bounty Hunter Space Guild universe.
                 </div>
             </div>
-            <div className="box5" data-aos="fade-up">
+            <div className="box6" data-aos="fade-up">
                 <div className="h2">Merchandise Store and 3D Models</div>
                 <div className="p">2022</div>
                 <div className="p">A Merchandise Store for holders will be released, details on how to claim these purchase
