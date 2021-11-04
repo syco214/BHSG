@@ -47,6 +47,12 @@ export const HeroContent = styled.div`
     padding: 8px 24px;
     display: flex;
     flex-direction: column;
+
+    @media screen and (min-width: 3400px) {
+        margin-top: 200px;
+        font-size: 5vw;
+        margin-left: 150px;
+    }
 `
 
 export const HeroH1 = styled.h1`
@@ -60,6 +66,11 @@ export const HeroH1 = styled.h1`
     text-shadow: 0 0 0.2em hsl(195 50% 50%);
     font-family: 'Saira Extra Condensed', sans-serif;
     font-weight: bold;
+
+    @media screen and (min-width: 3400px) {
+        width: 1200px;
+        font-size: 5vw;
+    }
 
     @media screen and (min-width: 3100px) {
         width: 1000px;

@@ -152,6 +152,8 @@ return(
           <p>
           Holders will be given 3D renders of their Bounty Hunter helmets. 
           These helmets can be used in augmented reality and in the future — The Metaverse.
+          The team aims to create a project that is metaverse ready, constantly adapting
+          to any new innovations in the space.
           </p>
         </div>
 
