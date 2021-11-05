@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import {FaBars} from 'react-icons/fa'
 import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, Image} from './NavbarElements'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
-import {faTwitter, faDiscord} from "@fortawesome/free-brands-svg-icons"
+import {faTwitter, faDiscord, faMedium} from "@fortawesome/free-brands-svg-icons"
 import '../Sidebar/icons.css'
 import {animateScroll as scroll} from 'react-scroll';
 import logo from '../Logos/logo.svg';
@@ -48,19 +48,22 @@ const Navbar = ({toggle}) => {
                             <NavLinks to="roadmap" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Roadmap</NavLinks>
                         </NavItem>
                         <NavItem>
+                            <NavLinks to="lore" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Lore</NavLinks>
+                        </NavItem>
+                        <NavItem>
                             <NavLinks to="team" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Team</NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="faq" smooth={true} duration={500} spy={true} exact='true' offset={-80}>FAQ</NavLinks>
-                        </NavItem>
-                        <NavItem>
-                            <NavLinks to="future" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Future</NavLinks>
                         </NavItem>
                         <a href="https://twitter.com/BountyHunterNFT" className="twitter social"> 
                         <FontAwesomeIcon icon={faTwitter} size="1x" />
                         </a>
                         <a href="https://discord.gg/YPDJGKWMNX" className="discord social"> 
                         <FontAwesomeIcon icon={faDiscord} size="1x" />
+                        </a>
+                        <a href="https://bountyhunterspaceguild.medium.com/" className="medium social"> 
+                        <FontAwesomeIcon icon={faMedium} size="1x" />
                         </a>
                     </NavMenu>
                 </NavbarContainer>

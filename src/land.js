@@ -12,6 +12,7 @@ import { homeObjOne } from "./Info/Data";
 import { homeObjTwo } from "./Future/Data";
 import Footer from "./Footer";
 import Faq from "./FAQ";
+import Video from "./Video";
 
 const Land = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -30,6 +31,7 @@ const Land = () => {
             <Tabs />
             <Carousel />
             <Map />
+            <Video />
             <Cards />
             <Faq/>
             <Lore {...homeObjTwo}/>
