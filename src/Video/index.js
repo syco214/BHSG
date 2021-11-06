@@ -35,7 +35,6 @@ const Video = () => (
       <ReactPlayer
         url="https://youtu.be/d7xpBzYt4JA"
         className="react-player"
-        playing
         width="100%"
         height="80%"
         controls={true}
