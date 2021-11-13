@@ -94,7 +94,7 @@ function Cards() {
             <CardItem
               src={require('../Images/Sage.png').default}
               text='Lead Developer. Engineering graduate'
-              text2='Big crypto lover except when he gets burned from futures.'
+              text2='Big blockchain tech advocate, enjoys gambling with futures in his free time.'
               label='SAGE'
             />
             <CardItem

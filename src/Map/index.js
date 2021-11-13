@@ -17,27 +17,27 @@ const HeroBg = styled.div`
     overflow: hidden;
 `
 const HeroContainer = styled.div`
-    height: 150vw;
+    height: 170vw;
     position: relative;
 
     @media screen and (max-width: 1024px) {
-        height: 170vw;
+        height: 200vw;
     }
 
     @media screen and (max-width: 768px) {
-        height: 190vw;
+        height: 250vw;
     }
 
     @media screen and (max-width: 640px) {
-        height: 210vw;
+        height: 260vw;
     }
 
     @media screen and (max-width: 480px) {
-        height: 300vw;
+        height: 350vw;
     }
 
     @media screen and (max-width: 360px) {
-        height: 340vw;
+        height: 460vw;
     }
 `
 
@@ -128,6 +128,7 @@ const Map = () => {
             <div class="circle3"/>
             <div class="circle4"/>
             <div class="circle5"/>
+            <div class="circle6"/>
             <div className="box1" data-aos="fade-up">
                 <div className="h2">Main Launch</div>
                 <div className="p">November 20 2021</div>
@@ -163,18 +164,29 @@ const Map = () => {
                 </div>
             </div>
             <div className="box5" data-aos="fade-up">
-                <div className="h2">Universe building airdrops</div>
+                <div className="h2">Weapons and Trinkets</div>
                 <div className="p">2022</div>
-                <div className="p">Bounty Hunter Upgrades and Spaceships are all 
-                possibilities for future airdrops;  all dependent on what the community wants. 
-                Every airdrop will be an integral part of the Bounty Hunter Space Guild universe.
+                <div className="p">Members of the Guild will have access to the Amoran Armory. 
+                There will be a standard issue blaster that every holder will receive, and eventually 
+                rarer weapons that will be available through challenges within the DAO, or through lootboxes 
+                unlockable with Amoran shards. <br /> These trinkets will eventually be storable in every Bounty Hunter’s spaceship.
                 </div>
             </div>
             <div className="box6" data-aos="fade-up">
                 <div className="h2">Merchandise Store and 3D Models</div>
                 <div className="p">2022</div>
                 <div className="p">A Merchandise Store for holders will be released, details on how to claim these purchase
-                these items will released later on. 3D Helmet Renders will be also given to holders who ask for it.
+                these items will released later on. The team also plans on creating real-life collective versions of the airdropped weapons
+                that will be available for purchase. 3D Helmet Renders will be also given to holders who ask for it.
+                </div>
+            </div>
+            <div className="box7" data-aos="fade-up">
+                <div className="h2">Spaceships</div>
+                <div className="p">2022</div>
+                <div className="p">After launch, the development of spaceships for the Bounty Hunters will begin. This is in order 
+                to create an ecosystem in the Solaris Systems where everything holds a purpose and connects to each other.<br /><br />
+                These ships will have armories in which to store weapons and trinkets in. Besides that, your spaceship will be able to 
+                hold your NFT’s/bounties.
                 </div>
             </div>
         </div>
