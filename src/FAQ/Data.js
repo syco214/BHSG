@@ -17,7 +17,7 @@ export const Data = [
     },
     {
       question: 'Are there secondary sale royalties?',
-      answer: 'Yes, royalties are set to 5% which will go towards the Bounty Hunter Space Guild DAO. 85% of those royalties will go towards the monthly sweep and reap utility that we have.'
+      answer: 'Yes, royalties are set to 6% which will go towards the Bounty Hunter Space Guild DAO. 85% of those royalties will go towards the monthly sweep and reap utility that we have.'
     },
     {
       question: 'Where can we sell our Bounty Hunters?',
