@@ -189,6 +189,14 @@
    .circle6 {height:40px;width: 40px; margin-top:144%}
  }
 
+@media only screen and (max-width: 1300px) {
+   .p {font-size: 14px;}
+}
+
+@media only screen and (max-width: 1300px) {
+   .p {font-size: 12px;}
+}
+
 @media only screen and (max-width: 1024px) {
    .box1 {width: 60vw;}
    .box2 {width: 60vw; margin-top: 45%}
