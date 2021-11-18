@@ -26,7 +26,7 @@ const Hero = () => {
                <HeroH1>BOUNTY HUNTER SPACE GUILD</HeroH1>
                {/* <HeroP>5,555 Unique NFTs</HeroP> */}
                <HeroBtnWrapper>
-                   <Button to="mint" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
+                   <Button href="https://bhsg-mint.vercel.app/" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
                        Minting on 11/20/2021 {hover ? <ArrowForward /> : <ArrowRight/>}
                    </Button>
                </HeroBtnWrapper>
