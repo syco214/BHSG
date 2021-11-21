@@ -83,7 +83,7 @@ const MintButton = styled(Button)`
   color: black;
 
   &:disabled {
-    color: gray;
+    color: black;
     font-weight: 500;
   }
 
