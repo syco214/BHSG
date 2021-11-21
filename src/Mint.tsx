@@ -238,7 +238,7 @@ const Home = (props: HomeProps) => {
       <MintContainer>
       <Image max-width='10%' src={logo} alt="logo"/>
       <HeroH1>BOUNTY HUNTER SPACE GUILD</HeroH1>
-      {wallet && <Font>Remaining Bounty Hunters: {itemsRemaining + 1283}/5555</Font>}
+      {wallet && <Font>Remaining Bounty Hunters: {itemsRemaining - 1283}/5555</Font>}
       <br />
 
      
@@ -259,7 +259,7 @@ const Home = (props: HomeProps) => {
               isMinting ? (
                 <CircularProgress />
               ) : (
-                "MINT"
+                "MINT 1 SOL"
               )
             ) : (
               <Countdown
