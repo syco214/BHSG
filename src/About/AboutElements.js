@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import {MdArrowForward, MdKeyboardArrowRight} from 'react-icons/md'
+import {Link as LinkR} from 'react-router-dom'
 
 export const HeroContainer = styled.div`
     background: #0c0c0c;
@@ -74,4 +75,6 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
 `
 export const Image = styled.img`
     max-width: 20%;
+`
+export const Link = styled(LinkR)`
 `

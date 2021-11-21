@@ -1,9 +1,8 @@
 import React, {useState} from 'react'
-import {HeroContainer, HeroBg, HeroContent, HeroH1, HeroBtnWrapper, ArrowForward, ArrowRight, Image} from './AboutElements'
+import {HeroContainer, HeroBg, HeroContent, HeroH1, HeroBtnWrapper, ArrowForward, ArrowRight, Image, Link} from './AboutElements'
 import ParticleBackground from '../ParticleBackground'
 import { Button } from './ButtonElement'
 import logo from '../Logos/logo.svg';
-
 
 const Hero = () => {
     const [hover, setHover] = useState(false)
@@ -26,9 +25,11 @@ const Hero = () => {
                <HeroH1>BOUNTY HUNTER SPACE GUILD</HeroH1>
                {/* <HeroP>5,555 Unique NFTs</HeroP> */}
                <HeroBtnWrapper>
-                   <Button href="https://bhsg-mint.vercel.app/" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
-                       Minting on 11/20/2021 {hover ? <ArrowForward /> : <ArrowRight/>}
+                <Link to="/officialmin"> 
+                   <Button  onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
+                       Mint is Live {hover ? <ArrowForward /> : <ArrowRight/>}
                    </Button>
+                </Link>
                </HeroBtnWrapper>
            </HeroContent>
         </HeroContainer>

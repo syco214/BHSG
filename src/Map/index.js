@@ -32,11 +32,11 @@ const HeroContainer = styled.div`
         height: 260vw;
     }
 
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 490px) {
         height: 350vw;
     }
 
-    @media screen and (max-width: 360px) {
+    @media screen and (max-width: 420px) {
         height: 460vw;
     }
 `

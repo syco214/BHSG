@@ -6,7 +6,7 @@ import Alert from "@material-ui/lab/Alert";
 import Particles from "react-particles-js"
 import particlesconfig from "./particle-config";
 import * as anchor from "@project-serum/anchor";
-
+import logo from './Logos/logo.svg';
 import { LAMPORTS_PER_SOL } from "@solana/web3.js";
 
 import { useAnchorWallet } from "@solana/wallet-adapter-react";
@@ -20,13 +20,78 @@ import {
   shortenAddress,
 } from "./candy-machine";
 
-const ConnectButton = styled(WalletDialogButton)``;
+const Text = styled.h6`
+  font-size: 18px;
+  text-align: center;
+  font-family: 'Saira', sans-serif;
+  font-weight: 400;
+  width: 150px;
+`
+const ConnectButton = styled(WalletDialogButton)`
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+
+  &:disabled {
+    color: gray;
+    font-weight: 500;
+  }
+
+  &:hover {
+      transition: all 0.2s ease-in-out;
+      background: white;
+    }
+`;
+
+const Font = styled.h2`
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Saira', sans-serif;
+  font-weight: 400;
+`
 
 const CounterText = styled.span``; // add your styles here
 
-const MintContainer = styled.div``; // add your styles here
+const MintContainer = styled.div`
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  margin: auto auto;
+  margin-top: -500px;
+  height: 500px;  
+  width: 700px;
+`; 
 
-const MintButton = styled(Button)``; // add your styles here
+export const HeroH1 = styled.h1`
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-weight: bold;
+  `
+export const Image = styled.img`
+    max-width: 20%;
+    justify-content: center;
+`
+const MintButton = styled(Button)`
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  background: linear-gradient(180deg, #FFE81F 0%, #FFE81F 100%);
+  color: black;
+
+  &:disabled {
+    color: gray;
+    font-weight: 500;
+  }
+
+  &:hover {
+      transition: all 0.2s ease-in-out;
+      background: white;
+    }
+`; 
 
 export interface HomeProps {
   candyMachineId: anchor.web3.PublicKey;
@@ -168,28 +233,26 @@ const Home = (props: HomeProps) => {
 
   return (
     <>
-    <main>
-      {wallet && (
-        <p>Wallet {shortenAddress(wallet.publicKey.toBase58() || "")}</p>
-      )}
-
-      {wallet && <p>Balance: {(balance || 0).toLocaleString()} SOL</p>}
-
-      {wallet && <p>Total Available: {itemsAvailable}</p>}
-
-      {wallet && <p>Redeemed: {itemsRedeemed}</p>}
-
-      {wallet && <p>Remaining: {itemsRemaining}</p>}
-
+    <main style={{background:'black'}}>
+      <Particles params={particlesconfig}> </Particles>
       <MintContainer>
+      <Image max-width='10%' src={logo} alt="logo"/>
+      <HeroH1>BOUNTY HUNTER SPACE GUILD</HeroH1>
+      {wallet && <Font>Remaining Bounty Hunters: {itemsRemaining + 1283}/5555</Font>}
+      <br />
+
+     
         {!wallet ? (
-          <ConnectButton>Connect Wallet</ConnectButton>
+          <Text>
+            <ConnectButton>Connect Wallet</ConnectButton>
+          </Text>
         ) : (
           <MintButton
             disabled={isSoldOut || isMinting || !isActive}
             onClick={onMint}
             variant="contained"
           >
+            <Text>
             {isSoldOut ? (
               "SOLD OUT"
             ) : isActive ? (
@@ -206,6 +269,7 @@ const Home = (props: HomeProps) => {
                 renderer={renderCounter}
               />
             )}
+            </Text>
           </MintButton>
         )}
       </MintContainer>
@@ -223,7 +287,8 @@ const Home = (props: HomeProps) => {
         </Alert>
       </Snackbar>
     </main>
-    <Particles params={particlesconfig}> </Particles>
+    <div style={{background:"black", height:"200px"}}>
+    </div>
     </>
   );
 };
