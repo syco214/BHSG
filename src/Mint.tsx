@@ -59,7 +59,7 @@ const MintContainer = styled.div`
   justify-content: center;
   align-items: center;
   margin: auto auto;
-  margin-top: -400px;
+  margin-top: -600px;
   height: 500px;  
   width: 700px;
 `; 
