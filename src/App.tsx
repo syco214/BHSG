@@ -1,7 +1,6 @@
 import "./App.css";
 import { useMemo } from "react";
 import {Route, BrowserRouter as Router} from "react-router-dom";
-import Home from "./Mint";
 import Land from "./land";
 import Cipher from "./cipher"
 import * as anchor from "@project-serum/anchor";
@@ -92,14 +91,6 @@ const App = () => {
         <ConnectionProvider endpoint={endpoint}>
           <WalletProvider wallets={wallets} autoConnect={true}>
             <WalletDialogProvider>
-              <Home
-                candyMachineId={candyMachineId}
-                config={config}
-                connection={connection}
-                startDate={startDateSeed}
-                treasury={treasury}
-                txTimeout={txTimeout}
-              />
             </WalletDialogProvider>
           </WalletProvider>
         </ConnectionProvider>
