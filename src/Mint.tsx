@@ -287,7 +287,7 @@ const Home = (props: HomeProps) => {
         </Alert>
       </Snackbar>
     </main>
-    <div style={{background:"black", height:"200px"}}>
+    <div style={{background:"black", height:"500px"}}>
     </div>
     </>
   );
