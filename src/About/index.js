@@ -25,11 +25,9 @@ const Hero = () => {
                <HeroH1>BOUNTY HUNTER SPACE GUILD</HeroH1>
                {/* <HeroP>5,555 Unique NFTs</HeroP> */}
                <HeroBtnWrapper>
-                <Link to="/mint" style={{textDecoration:'none'}}>
                    <Button onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
-                       MINT IS LIVE {hover ? <ArrowForward /> : <ArrowRight/>}
+                       SOLD OUT {hover ? <ArrowForward /> : <ArrowRight/>}
                    </Button>
-                </Link>
                </HeroBtnWrapper>
            </HeroContent>
         </HeroContainer>

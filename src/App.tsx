@@ -87,7 +87,6 @@ const App = () => {
     <Router>
     <Route path="/" exact component={Land} />
     <Route path="/jagasden" exact component={Cipher} />
-    <Route path="/mint">
     <div style={{background:"black"}}>
       <ThemeProvider theme={theme}>
         <ConnectionProvider endpoint={endpoint}>
@@ -106,7 +105,6 @@ const App = () => {
         </ConnectionProvider>
       </ThemeProvider>
       </div>
-    </Route>
   </Router>
   );
 };
