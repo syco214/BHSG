@@ -118,7 +118,7 @@ return(
           <h2>Eliminate Targets and Reap The Rewards</h2>
           <hr />
           <p>
-          Each holder is entitled to a holder votes, 85 percent of all secondary 
+          Each holder is entitled to a vote, 50 percent of all secondary 
           sales go towards the Bounty Hunter Space Guild Dao. 
           Guild members are able to <br/> <br/>
           <b>Eliminate</b> targets by sweeping the floor of a community chosen NFT project on Sol. 

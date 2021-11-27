@@ -61,7 +61,7 @@ export const HeroH1 = styled.h1`
 export const HeroBtnWrapper = styled.div`
     margin-top: 32px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 `
 export const ArrowForward = styled(MdArrowForward)`
