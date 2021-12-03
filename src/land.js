@@ -1,6 +1,5 @@
-import React, {useState} from "react";
-import Navbar from "./Navbar";
-import Sidebar from "./Sidebar";
+import React from "react";
+
 import Hero from "./About";
 import Info from "./Info";
 import Lore from "./Future";
@@ -15,17 +14,12 @@ import Faq from "./FAQ";
 import Video from "./Video";
 
 const Land = () => {
-    const [isOpen, setIsOpen] = useState(false);
 
-    const toggle = () => {
-        setIsOpen(!isOpen);
-    };
     
     return (
         <>
         <div style={{backgroundColor:'black'}}>
-            <Sidebar isOpen={isOpen} toggle={toggle}/>
-            <Navbar toggle={toggle}/>  
+
             <Hero/>
             <Info {...homeObjOne}/>
             <Tabs />

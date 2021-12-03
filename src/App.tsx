@@ -1,6 +1,6 @@
 import "./App.css";
-import { useMemo } from "react";
-import {Route, BrowserRouter as Router} from "react-router-dom";
+import { useMemo, useState } from "react";
+import {Route, BrowserRouter as Router, Switch} from "react-router-dom";
 import Land from "./land";
 import Cipher from "./cipher"
 import * as anchor from "@project-serum/anchor";
@@ -21,6 +21,9 @@ import {
 
 import { WalletDialogProvider } from "@solana/wallet-adapter-material-ui";
 import { createTheme, ThemeProvider } from "@material-ui/core";
+import Navbar from "./Navbar";
+import Sidebar from "./Sidebar";
+import ConnectWallet from "./ConnectWallet";
 
 const treasury = new anchor.web3.PublicKey(
   process.env.REACT_APP_TREASURY_ADDRESS!
@@ -69,7 +72,7 @@ const theme = createTheme({
 });
 
 const App = () => {
-  const endpoint = useMemo(() => clusterApiUrl(network), []);
+  const endpoint = useMemo(() => clusterApiUrl(network), [network]);
 
   const wallets = useMemo(
     () => [
@@ -79,18 +82,31 @@ const App = () => {
         getSolletWallet({ network }),
         getSolletExtensionWallet({ network })
     ],
-    []
+    [network]
   );
+
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+      setIsOpen(!isOpen);
+  };
 
   return (
     <Router>
-    <Route path="/" exact component={Land} />
-    <Route path="/jagasden" exact component={Cipher} />
+
     <div style={{background:"black"}}>
       <ThemeProvider theme={theme}>
         <ConnectionProvider endpoint={endpoint}>
           <WalletProvider wallets={wallets} autoConnect={true}>
             <WalletDialogProvider>
+
+              <Sidebar isOpen={isOpen} toggle={toggle}/>
+              <Navbar toggle={toggle}/>  
+                <Switch>
+                  <Route path="/" exact component={Land} />
+                  <Route path="/connectwallet" exact component={ConnectWallet} />
+                  <Route path="/jagasden" exact component={Cipher} />
+                </Switch>
             </WalletDialogProvider>
           </WalletProvider>
         </ConnectionProvider>

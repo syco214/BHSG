@@ -120,15 +120,15 @@ const Map = () => {
         <HeroContent>
             <HeroH1 data-aos="fade-up">ROADMAP</HeroH1>
         </HeroContent>
-        <div class="grids">
-            <div class="blade"/>
-            <div class="circle"/>
-            <div class="circle1"/>
-            <div class="circle2"/>
-            <div class="circle3"/>
-            <div class="circle4"/>
-            <div class="circle5"/>
-            <div class="circle6"/>
+        <div className="grids">
+            <div className="blade"/>
+            <div className="circle"/>
+            <div className="circle1"/>
+            <div className="circle2"/>
+            <div className="circle3"/>
+            <div className="circle4"/>
+            <div className="circle5"/>
+            <div className="circle6"/>
             <div className="box1" data-aos="fade-up">
                 <div className="h2">Main Launch</div>
                 <div className="p">November 20 2021</div>

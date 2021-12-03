@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import { useHistory } from 'react-router'
 import {FaBars} from 'react-icons/fa'
 import {Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, Image} from './NavbarElements'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
@@ -6,10 +7,16 @@ import {faTwitter, faDiscord, faMedium} from "@fortawesome/free-brands-svg-icons
 import '../Sidebar/icons.css'
 import {animateScroll as scroll} from 'react-scroll';
 import logo from '../Logos/logo.svg';
+import {Button, Box} from "@material-ui/core"
+import PopupDialog from "../Dialog"
+import "./styles.css"
 
 const Navbar = ({toggle}) => {
 
+    const history = useHistory();
+
     const [scrollNav, setScrollNav] = useState(false)
+    const [openDialog, setOpenDialog] = useState(false)
 
     const changeNav = () => {
          if(window.scrollY >= 80) {
@@ -27,12 +34,20 @@ const Navbar = ({toggle}) => {
         scroll.scrollToTop();
     }
 
+    const goto = (url) =>() => {
+        history.push(url);
+    }
+
+    const onDialogClose = () => {
+        setOpenDialog(false);
+    }
+
     return (
         <>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
                     <NavLogo to='/' onClick={toggleHome}>
-                        <Image src={logo} alt="logo"/>
+                        <Image width="100" src={logo} alt="logo"/>
                     </NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
@@ -65,9 +80,30 @@ const Navbar = ({toggle}) => {
                         <a href="https://bountyhunterspaceguild.medium.com/" className="medium social"> 
                         <FontAwesomeIcon icon={faMedium} size="1x" />
                         </a>
+                        
+                        <button className="headerBtn firstBtn" onClick={goto("connectwallet")}>
+                            <b>My Residences</b>
+                        </button>
+                        <button className="headerBtn secondBtn" onClick={()=>setOpenDialog(true)}>
+                            <b>Buy a Residences</b>
+                        </button>
                     </NavMenu>
                 </NavbarContainer>
             </Nav>
+            <PopupDialog
+                open={openDialog}
+                onClose={onDialogClose}
+                title={"Buy a Residence"}
+                titleStyle={{color: 'white'}}
+            >
+                <Box className="dialog-container">
+                    <Box style={{marginBottom: 50}}>We support multiple marketplaces, select one below</Box>
+                    <Button variant="contained" fullWidth={true} className="item-btn btn-purple" component={"a"} href="https://solanart.io/collections/thetower" target="_blank">Sloanart</Button>
+                    <Button variant="contained" fullWidth={true} className="item-btn btn-pink"  component={"a"} href="https://magiceden.io/marketplace/the_tower"  target="_blank">Magic Eden</Button>
+                    <Button variant="contained" fullWidth={true} className="item-btn btn-yellow"  component={"a"} href="https://exchange.art/collections/The%20Tower"  target="_blank">Exchange.Art</Button>
+                    <Button variant="contained" fullWidth={true} className="item-btn btn-black"  component={"a"} href="https://alpha.art/collection/the-tower"  target="_blank">Alpha.Art</Button>
+                </Box>
+            </PopupDialog>
         </>
     )
 }

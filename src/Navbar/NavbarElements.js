@@ -1,6 +1,8 @@
 import styled from "styled-components";
 import {Link as LinkR} from 'react-router-dom'
 import {Link as LinkS} from 'react-scroll'
+import {Button} from "@material-ui/core"
+import { styled as muiStyled } from '@material-ui/styles';
 
 export const Nav = styled.nav`
     background: ${({scrollNav}) => (scrollNav ? '#000' : 'transparent')};
@@ -19,13 +21,15 @@ export const Nav = styled.nav`
 `;
 
 export const NavbarContainer = styled.div`
-    display:flex;
-    justify-content; space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     height: 80px;
     z-index: 1;
     width: 100%;
     padding: 0 24px;
-    max-width: 1100px;
+    // max-width: 1100px;
 `;
 
 export const NavLogo = styled(LinkR)`
@@ -58,7 +62,6 @@ export const NavMenu = styled.ul`
     align-items: center;
     list-style: none;
     text-align: center;
-    margin-left: 50px;
 
     @media screen and (max-width: 1024px) {
         display:none;
@@ -96,3 +99,4 @@ export const Image = styled.img`
     @media screen and (max-width: 768px) {
         max-width:8%;
 `
+
