@@ -130,63 +130,58 @@ const Map = () => {
             <div class="circle5"/>
             <div class="circle6"/>
             <div className="box1" data-aos="fade-up">
-                <div className="h2">Main Launch</div>
-                <div className="p">November 20 2021</div>
-                <div className="p">The mint will happen on November 20, 2021 at 17:00 UTC. The Fair Launch Protocol 
-                will be used for this project, whitelisted 
-                wallets will automatically win the lottery given that they bid at the Fair Price. The 
-                remaining number of Bounty Hunters will be available for minting through the Fair Launch system, 
-                more details will be released closer to launch.
+                <div className="h2">Bounty Credits ($BNTY)</div>
+                <div className="p">December 2021</div>
+                <div className="p">$BNTY will be introduced with a staking mechanism. Send your Bounty Hunters on missions 
+                in order to rack up some credits. $BNTY can be used for DAO Auctions, and to deck out your ship and Bounty Hunter. 
+                It will also be used for Gen 2.
                 </div>
             </div>
             <div className="box2" data-aos="fade-up">
-            <div className="h2">Post Launch</div>
-                <div className="p">November 2021</div>
-                <div className="p">Holders will now be able to verify their Bounty Hunters through Grape 
-                and gain access to Private Discord channels and the Bounty Hunter Space Guild Dao. Digital 
-                Eyes and Solanart will be the initial secondary marketplace to provide a safe and secure way for trading Bounty Hunters. 
+            <div className="h2">Blasters & Accessories</div>
+                <div className="p">December 2021</div>
+                <div className="p">
+                Acquire loot through Bounty Credits ($BNTY) or win them in special events and by participating in Bounty DAO. 
+                These will be displayable in the armory section of your spaceship.
                 </div>
             </div>
             <div className="box3" data-aos="fade-up">
-            <div className="h2">The Room</div>
-                <div className="p">November 2021</div>
-                <div className="p">The Tower x BHSG room will be filled with a portion of the mint sales. 
-                Early holders get to participate in our little NFT spending spree.  <br /> <br />
-                More details in Guild member benefits
+            <div className="h2">Real life 3D Busts</div>
+                <div className="p">December 2021</div>
+                <div className="p">Busts/Models will be made purchasable in our merch store. These will also be given out to members 
+                of the community who contribute to BHSG. There will be colored and non colored versions.
                 </div>
             </div>
             <div className="box4" data-aos="fade-up">
-                <div className="h2">Sweep and Reap Launch</div>
+                <div className="h2">Spaceships</div>
                 <div className="p">December 2021</div>
-                <div className="p">The first iteration of the Sweep and Reap utility will be launched 
-                allowing holders to vote on which projects to sweep as well as Reap the rewards of being
-                a member of the Bounty Hunter Space Guild DAO.
+                <div className="p">Ships will be completely modular and unique. Bounty Hunters will be able to showcase their NFT’s within their ships. 
+                V1 will be a 2D Gallery, with V2 in the horizon being a 3D gallery with walkable and customizable environments.
                 </div>
             </div>
             <div className="box5" data-aos="fade-up">
-                <div className="h2">Weapons and Trinkets</div>
+                <div className="h2">Full 3D Bodies</div>
                 <div className="p">2022</div>
-                <div className="p">Members of the Guild will have access to the Amoran Armory. 
-                There will be a standard issue blaster that every holder will receive, and eventually 
-                rarer weapons that will be available through challenges within the DAO, or through lootboxes 
-                unlockable with Amoran shards. <br /> These trinkets will eventually be storable in every Bounty Hunter’s spaceship.
+                <div className="p">
+                Full bodies and models of every Bounty Hunter will be released. The armor pieces of Bounty Hunters will also be completely modular, however 
+                it will not affect the rarity spread. These will be viewable on our website, along with their complete 3D models.
                 </div>
             </div>
             <div className="box6" data-aos="fade-up">
-                <div className="h2">Merchandise Store and 3D Models</div>
+                <div className="h2">Merchandise Store</div>
                 <div className="p">2022</div>
                 <div className="p">A Merchandise Store for holders will be released, details on how to claim these purchase
                 these items will released later on. The team also plans on creating real-life collective versions of the airdropped weapons
-                that will be available for purchase. 3D Helmet Renders will be also given to holders who ask for it.
+                that will be available for purchase. 
                 </div>
             </div>
             <div className="box7" data-aos="fade-up">
-                <div className="h2">Spaceships</div>
+                <div className="h2">GEN 2</div>
                 <div className="p">2022</div>
-                <div className="p">After launch, the development of spaceships for the Bounty Hunters will begin. This is in order 
-                to create an ecosystem in the Solaris Systems where everything holds a purpose and connects to each other.<br /><br />
-                These ships will have armories in which to store weapons and trinkets in. Besides that, your spaceship will be able to 
-                hold your NFT’s/bounties.
+                <div className="p">The Gen 2 installment of Solaris is in the works.<br/>
+                Aliens? Creatures? Automatons?<br/>
+                Stake for enough $BNTY and find out.<br/>
+                TBA<br/>
                 </div>
             </div>
         </div>
