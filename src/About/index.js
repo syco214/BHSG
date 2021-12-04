@@ -31,8 +31,8 @@ const Hero = () => {
                    <Button a href="https://magiceden.io/marketplace/bounty_hunter_space_guild" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
                        Buy Now on Magic Eden {hover ? <ArrowForward /> : <ArrowRight/>}
                    </Button>
-                   <Button a href="https://alpha.art/collection/bounty-hunter-space-guild" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
-                       Buy Now on Alpha Art {hover ? <ArrowForward /> : <ArrowRight/>}
+                   <Button a href="https://moonrank.app/collection/bounty_hunter_space_guild" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
+                       View the Collection {hover ? <ArrowForward /> : <ArrowRight/>}
                    </Button>
                </HeroBtnWrapper>
            </HeroContent>

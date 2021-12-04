@@ -100,7 +100,7 @@ return(
           className={toggleState === 3 ? "tabs active-tabs" : "tabs"}
           onClick={() => toggleTab(3)}
         >
-          Merchendise
+          Merchandise
         </button>
         <button
           className={toggleState === 4 ? "tabs active-tabs" : "tabs"}
@@ -118,9 +118,9 @@ return(
           <hr />
           <p>
             $BNTY will be the main currency of the BHSG universe and will be earned through staking. Bounty Hunters and Airdrops from
-            the Bounty Hunter Space Guild can be staked for certain periods to grant $BNTY. <br/><br/> $BNTY can be used for DAO Auctions, 
+            the Bounty Hunter Space Guild can be staked for certain periods of time to grant $BNTY. <br/><br/> $BNTY can be used for DAO Auctions, 
             and to deck out your ship and Bounty Hunter. It will also be used for Gen 2, and can be traded in a DEX. Exact tokenomics will 
-            be released closer to staking-launch.
+            be released closer to the launch of staking.
           </p>
         </div>
 
@@ -154,11 +154,11 @@ return(
           <h2>Access to Discord and Future Airdrops</h2>
           <hr />
           <p>
-            Bounty Hunter holders will be verified through Grape this will give them access to the following:<br/><br/>
-            1. “The Guild” and “The Mission Room” Channels on discord. <br/>
+            Bounty Hunter holders will be verified through Solaland this will give them access to the following:<br/><br/>
+            1. “The Guild” and “The Mission Room” Categories on discord. <br/>
             2. To vote for which NFT’s will be put into the Tower x BHSG room after the each Sweep. <br/>
             3. To vote on DAO decisions. <br/>
-            4. Exclusive Bounty Hunter Space Guild merchendise and collectibles. <br/>
+            4. Exclusive Bounty Hunter Space Guild merchandise and collectibles. <br/>
             5. Future world building airdrops.
           </p>
         </div>

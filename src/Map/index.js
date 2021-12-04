@@ -146,17 +146,17 @@ const Map = () => {
                 </div>
             </div>
             <div className="box3" data-aos="fade-up">
-            <div className="h2">Real life 3D Busts</div>
-                <div className="p">December 2021</div>
-                <div className="p">Busts/Models will be made purchasable in our merch store. These will also be given out to members 
-                of the community who contribute to BHSG. There will be colored and non colored versions.
-                </div>
-            </div>
-            <div className="box4" data-aos="fade-up">
                 <div className="h2">Spaceships</div>
                 <div className="p">December 2021</div>
                 <div className="p">Ships will be completely modular and unique. Bounty Hunters will be able to showcase their NFT’s within their ships. 
                 V1 will be a 2D Gallery, with V2 in the horizon being a 3D gallery with walkable and customizable environments.
+                </div>
+            </div>
+            <div className="box4" data-aos="fade-up">
+            <div className="h2">Real life 3D Busts</div>
+                <div className="p">2022</div>
+                <div className="p">Busts/Models will be made purchasable in our merch store. These will also be given out to members 
+                of the community who contribute to BHSG. There will be colored and non colored versions.
                 </div>
             </div>
             <div className="box5" data-aos="fade-up">
