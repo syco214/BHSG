@@ -5,7 +5,7 @@ export const Data = [
     },
     {
       question: 'Where can we sell our Bounty Hunters?',
-      answer: 'You may list your Bounty Hunters on Solanart, Magic Eden, and Alpha Art, more details will be released closer to launch'
+      answer: 'You may list your Bounty Hunters on Solanart, Magic Eden, Alpha Art, and FTX. You may also trade Bounty Hunters on Yawww'
     },
     {
       question: 'What are some of the long-term plans for Bounty Hunter Space Guild?',
