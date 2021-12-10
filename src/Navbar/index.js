@@ -71,6 +71,7 @@ const Navbar = ({toggle}) => {
                         <NavItem>
                             <NavLinks to="faq" smooth={true} duration={500} spy={true} exact='true' offset={-80}>FAQ</NavLinks>
                         </NavItem>
+
                         <a href="https://twitter.com/BountyHunterNFT" className="twitter social"> 
                         <FontAwesomeIcon icon={faTwitter} size="1x" />
                         </a>
@@ -81,7 +82,7 @@ const Navbar = ({toggle}) => {
                         <FontAwesomeIcon icon={faMedium} size="1x" />
                         </a>
                         
-                        <button className="headerBtn firstBtn" onClick={goto("connectwallet")}>
+                        <button className="headerBtn firstBtn" onClick={goto("/connectwallet")}>
                             <b>My Residences</b>
                         </button>
                         <button className="headerBtn secondBtn" onClick={()=>setOpenDialog(true)}>
