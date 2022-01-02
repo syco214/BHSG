@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {HeroContainer, HeroBg, HeroContent, HeroH1, HeroBtnWrapper, ArrowForward, ArrowRight, Image, Link} from './AboutElements'
+import {HeroContainer, HeroBg, HeroContent, HeroH1, HeroBtnWrapper, ArrowForward, ArrowRight, Image} from './AboutElements'
 import ParticleBackground from '../ParticleBackground'
 import { Button } from './ButtonElement'
 import logo from '../Logos/logo.svg';
@@ -25,14 +25,8 @@ const Hero = () => {
                <HeroH1>BOUNTY HUNTER SPACE GUILD</HeroH1>
                {/* <HeroP>5,555 Unique NFTs</HeroP> */}
                <HeroBtnWrapper>
-                   <Button a href="https://solanart.io/collections/bountyhunterspaceguild" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
-                       Buy Now on Solanart {hover ? <ArrowForward /> : <ArrowRight/>}
-                   </Button>
                    <Button a href="https://magiceden.io/marketplace/bounty_hunter_space_guild" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
-                       Buy Now on Magic Eden {hover ? <ArrowForward /> : <ArrowRight/>}
-                   </Button>
-                   <Button a href="https://moonrank.app/collection/bounty_hunter_space_guild" onMouseEnter={onHover} onMouseLeave={onHover} primary="true" dark="true">
-                       View the Collection {hover ? <ArrowForward /> : <ArrowRight/>}
+                       Recruit a Bounty Hunter {hover ? <ArrowForward /> : <ArrowRight/>}
                    </Button>
                </HeroBtnWrapper>
            </HeroContent>

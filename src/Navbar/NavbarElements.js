@@ -87,8 +87,22 @@ export const NavLinks = styled(LinkS)`
     }
 `;
 
+export const Link = styled.a`
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 3rem;
+    height: 100%;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: 'Saira', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+`;
+
 export const Image = styled.img`
-    max-width: 40%;
+    max-width: 70%;
 
     @media screen and (max-width: 1024px) {
         max-width:8%;

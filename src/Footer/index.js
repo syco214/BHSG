@@ -11,7 +11,9 @@ const Footer = () => {
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                                <FooterLink href="mailto:bountyhunterspaceguild@gmail.com">Contact Us</FooterLink>
+                                <FooterLink href="https://solradar.io/collection/bounty_hunter_space_guild">SolRadar</FooterLink>
+                                <FooterLink href="https://moonrank.app/collection/bounty_hunter_space_guild">Moonrank</FooterLink>
+                                <FooterLink href="https://howrare.is/bountyhunterspaceguild">HowRareIs</FooterLink>
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <WebsiteRights>Terra One © {new Date().getFullYear()} All Rights Reserved.</WebsiteRights>
@@ -26,6 +28,7 @@ const Footer = () => {
                         </FooterLinkItems>
                         <FooterLinkItems>
                                 <FooterLink href="https://drive.google.com/file/d/1QxQC48CoFpbLoDWjjVqgpAzDaDyXBbxR/view?usp=sharing">Terms and Conditions</FooterLink>
+                                <FooterLink href="mailto:bountyhunterspaceguild@gmail.com">Contact Us</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>

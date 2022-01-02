@@ -131,7 +131,7 @@ const Map = () => {
             <div class="circle6"/>
             <div className="box1" data-aos="fade-up">
                 <div className="h2">Bounty Credits ($BNTY)</div>
-                <div className="p">December 2021</div>
+                <div className="p">Q1 2022</div>
                 <div className="p">$BNTY will be introduced with a staking mechanism. Send your Bounty Hunters on missions 
                 in order to rack up some credits. $BNTY can be used for DAO Auctions, and to deck out your ship and Bounty Hunter. 
                 It will also be used for Gen 2.
@@ -139,7 +139,7 @@ const Map = () => {
             </div>
             <div className="box2" data-aos="fade-up">
             <div className="h2">Blasters & Accessories</div>
-                <div className="p">December 2021</div>
+                <div className="p">Q1 2021</div>
                 <div className="p">
                 Acquire loot through Bounty Credits ($BNTY) or win them in special events and by participating in Bounty DAO. 
                 These will be displayable in the armory section of your spaceship.
@@ -147,21 +147,21 @@ const Map = () => {
             </div>
             <div className="box3" data-aos="fade-up">
                 <div className="h2">Spaceships</div>
-                <div className="p">December 2021</div>
+                <div className="p">Q2 2021</div>
                 <div className="p">Ships will be completely modular and unique. Bounty Hunters will be able to showcase their NFT’s within their ships. 
                 V1 will be a 2D Gallery, with V2 in the horizon being a 3D gallery with walkable and customizable environments.
                 </div>
             </div>
             <div className="box4" data-aos="fade-up">
             <div className="h2">Real life 3D Busts</div>
-                <div className="p">2022</div>
+                <div className="p">Q2 2022</div>
                 <div className="p">Busts/Models will be made purchasable in our merch store. These will also be given out to members 
                 of the community who contribute to BHSG. There will be colored and non colored versions.
                 </div>
             </div>
             <div className="box5" data-aos="fade-up">
                 <div className="h2">Full 3D Bodies</div>
-                <div className="p">2022</div>
+                <div className="p">Q3 2022</div>
                 <div className="p">
                 Full bodies and models of every Bounty Hunter will be released. The armor pieces of Bounty Hunters will also be completely modular, however 
                 it will not affect the rarity spread. These will be viewable on our website, along with their complete 3D models.
@@ -169,7 +169,7 @@ const Map = () => {
             </div>
             <div className="box6" data-aos="fade-up">
                 <div className="h2">Merchandise Store</div>
-                <div className="p">2022</div>
+                <div className="p">Q3 2022</div>
                 <div className="p">A Merchandise Store for holders will be released, details on how to claim these purchase
                 these items will released later on. The team also plans on creating real-life collective versions of the airdropped weapons
                 that will be available for purchase. 
@@ -177,7 +177,7 @@ const Map = () => {
             </div>
             <div className="box7" data-aos="fade-up">
                 <div className="h2">GEN 2</div>
-                <div className="p">2022</div>
+                <div className="p">Q4 2022</div>
                 <div className="p">The Gen 2 installment of Solaris is in the works.<br/>
                 Aliens? Creatures? Automatons?<br/>
                 Stake for enough $BNTY and find out.<br/>

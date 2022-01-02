@@ -67,3 +67,25 @@ export const SidebarLink = styled(LinkS)`
         transition: 0.2s ease-in-out;
     }
 `
+
+export const Link = styled.a`
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    text-decoration: none;
+    list-style: none;
+    padding: 10px 0 10px 0;
+    transition: 0.2s ease-int-out;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-family: 'Saira', sans-serif;
+    font-weight: 600;
+
+    &:hover {
+        color #FFE81F;
+        transition: 0.2s ease-in-out;
+    }
+`

@@ -1,5 +1,5 @@
 import React from 'react'
-import {SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarLink, SidebarMenu} from './SidebarElements'
+import {SidebarContainer, Icon, CloseIcon, SidebarWrapper, SidebarLink, SidebarMenu, Link} from './SidebarElements'
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {faTwitter, faDiscord, faMedium} from "@fortawesome/free-brands-svg-icons"
 import './icons.css'
@@ -17,7 +17,7 @@ const Sidebar = ({isOpen,toggle}) => {
                     <SidebarLink to="roadmap">Roadmap</SidebarLink>
                     <SidebarLink to="lore">Lore</SidebarLink>
                     <SidebarLink to="team">Team</SidebarLink>
-                    <SidebarLink to="faq">FAQ</SidebarLink>
+                    <Link href="https://bountyhunterspaceguild.gitbook.io/bounty-hunter-space-guild/">Litepaper</Link>
                     <div className="parent">
                     <a href="https://twitter.com/BountyHunterNFT" className="twitter social"> 
                         <FontAwesomeIcon icon={faTwitter} size="2x" />

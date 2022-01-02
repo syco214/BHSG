@@ -4,14 +4,13 @@ import Sidebar from "./Sidebar";
 import Hero from "./About";
 import Info from "./Info";
 import Lore from "./Future";
-import Map from "./Map"
+import Map from "./Roadmap"
 import Tabs from "./Benefits";
 import Carousel from "./Carousel";
 import Cards from "./Team"
 import { homeObjOne } from "./Info/Data";
 import { homeObjTwo } from "./Future/Data";
 import Footer from "./Footer";
-import Faq from "./FAQ";
 import Video from "./Video";
 
 const Land = () => {
@@ -33,7 +32,6 @@ const Land = () => {
             <Map />
             <Video />
             <Cards />
-            <Faq/>
             <Lore {...homeObjTwo}/>
             <Footer/>
         </div>
