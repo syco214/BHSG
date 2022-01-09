@@ -139,7 +139,7 @@ const Map = () => {
             </div>
             <div className="box2" data-aos="fade-up">
             <div className="h2">Blasters & Accessories</div>
-                <div className="p">Q1 2021</div>
+                <div className="p">Q1 2022</div>
                 <div className="p">
                 Acquire loot through Bounty Credits ($BNTY) or win them in special events and by participating in Bounty DAO. 
                 These will be displayable in the armory section of your spaceship.
@@ -147,7 +147,7 @@ const Map = () => {
             </div>
             <div className="box3" data-aos="fade-up">
                 <div className="h2">Spaceships</div>
-                <div className="p">Q2 2021</div>
+                <div className="p">Q2 2022</div>
                 <div className="p">Ships will be completely modular and unique. Bounty Hunters will be able to showcase their NFT’s within their ships. 
                 V1 will be a 2D Gallery, with V2 in the horizon being a 3D gallery with walkable and customizable environments.
                 </div>
