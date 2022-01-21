@@ -1,5 +1,5 @@
 import React from 'react'
-import {faTwitter, faDiscord} from "@fortawesome/free-brands-svg-icons"
+import {faTwitter, faDiscord, faInstagram} from "@fortawesome/free-brands-svg-icons"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome"
 import {FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, 
 FooterLinkItems, FooterLink, WebsiteRights, Icons} from "./FooterElements"
@@ -23,6 +23,9 @@ const Footer = () => {
                                     </a>
                                     <a href="https://discord.gg/YPDJGKWMNX" className="discord social"> 
                                     <FontAwesomeIcon icon={faDiscord} size="1x" />
+                                    </a>
+                                    <a href="https://www.instagram.com/bountyhunternft/" className="discord social"> 
+                                    <FontAwesomeIcon icon={faInstagram} size="1x" />
                                     </a>
                                 </Icons>
                         </FooterLinkItems>
