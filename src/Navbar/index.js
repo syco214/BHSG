@@ -64,9 +64,6 @@ const Navbar = ({toggle}) => {
                     </MobileIcon>
                     <NavMenu>
                         <NavItem>
-                            <NavLinks to="job" smooth={true} duration={500} spy={true} exact='true' offset={-80}>About</NavLinks>
-                        </NavItem>
-                        <NavItem>
                             <NavLinks to="benefits" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Utility</NavLinks>
                         </NavItem>
                         <NavItem>
@@ -77,6 +74,9 @@ const Navbar = ({toggle}) => {
                         </NavItem>
                         <NavItem>
                             <NavLinks to="team" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Team</NavLinks>
+                        </NavItem>
+                        <NavItem>
+                            <Link href="https://staking.bountyhunterspaceguild.com/" smooth={true} duration={500} spy={true} exact='true' offset={-80}>Staking</Link>
                         </NavItem>
                         <a href="https://twitter.com/BountyHunterNFT" className="twitter social"> 
                         <FontAwesomeIcon icon={faTwitter} size="1x" />
