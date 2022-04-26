@@ -108,6 +108,9 @@ const Navbar = ({toggle}) => {
                     <Button variant="contained" fullWidth={true} className="item-btn btn-black"  component={"a"} href="https://howrare.is/bountyhunterspaceguild"  target="_blank">Complete Collection</Button>
                     <Button variant="contained" fullWidth={true} className="item-btn btn-black"  component={"a"} href="https://bountyhunterspaceguild.medium.com/"  target="_blank">Medium</Button>
                     <Button variant="contained" fullWidth={true} className="item-btn btn-black"  component={"a"} href="https://towerdao.com/326/1"  target="_blank">DAO Treasury</Button>
+                    <Button variant="contained" fullWidth={true} className="item-btn btn-black"  component={"a"} href="https://birdeye.so/token/BNTY5DaMP9CZhEtmQfMLHfUwwkXropHuCz4m96YqpqKm"  target="_blank">BNTY Token</Button>
+                    <Button variant="contained" fullWidth={true} className="item-btn btn-black"  component={"a"} href="https://jup.ag/swap/BNTY-SOL"  target="_blank">Buy BNTY</Button>
+                    <Button variant="contained" fullWidth={true} className="item-btn btn-black"  component={"a"} href="https://coinmarketcap.com/currencies/bounty/"  target="_blank">Coinmarketcap</Button>
                 </Box>
             </PopupDialog>
             </ThemeProvider>
